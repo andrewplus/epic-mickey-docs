@@ -1,3 +1,5 @@
+# Modifying Game Files
+
 The files of Epic Mickey can be modified and played in Dolphin or on a modded Wii console. Below are some guides on manipulating the files. There are other ways to access and modify game files, but below are some of the suggested methods. The following instructions only apply to Windows users.
 
 **Note:** This article assumes that you already possess a legally-obtained copy of Epic Mickey.
