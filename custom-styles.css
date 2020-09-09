@@ -1,0 +1,10 @@
+/* Custom styles applied on top of Slate */
+
+#header-wrap {
+  background-image: url('./site-images/bg.jpg');
+  background-size: cover;
+}
+
+#main_content_wrap {
+  border-top: 0px;
+}
