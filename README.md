@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Epic Mickey Docs
 
-You can use the [editor on GitHub](https://github.com/andrewplus/epic-mickey-docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Epic Mickey Docs (formerly Epic Mickey Modding Wiki) is a resource provided by the [Epic Mickey Wiki](https://epicmickey.wiki) for people who are interested in exploring and modifying the files of Epic Mickey. It's a work-in-progress website with file extraction guides/tools, documentation, and original research. Hosted on GitHub Pages and powered by Jekyll, using the [Slate](https://github.com/pages-themes/slate) theme.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Contributing
 
-### Markdown
+Contributions are welcome via pull requests. Articles are stored as markdown files in the root of the master branch. If you're not comfortable with editing yourself, create an issue and your suggestion will be considered.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Discussion
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andrewplus/epic-mickey-docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Join the [Epic Mickey Wiki Discord server](https://discord.epicmickey.wiki) to interact with an avid community of Epic Mickey fans. This is where most cutting edge modding discoveries are shared and discussed.
