@@ -1,7 +1,7 @@
 /* Custom styles applied on top of Slate */
 
 #header-wrap {
-  background-image: url('/site-images/bg.jpg');
+  background-image: url('/site-images/bg.jpg') !important;
   background-size: cover;
 }
 
