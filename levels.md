@@ -51,4 +51,4 @@ spatter.bnk
 ### .gsa and .bin files
 .GSA files are referenced all over Epic Mickey's files, but you'd have a hard time finding them anywhere. This is because .gsa files are actually .bin files in the filesystem. They tend to be found in the Environments folder. They're more what you'd expect a .level file to be, acting as a sort of executable for each level. Since these files are mostly binary, there is no known way to open or modify these. The launcher is proven to be capable of loading .gsa files on their own without a corresponding .level file, but this has only been tested to work with very few .gsa files.
 
-<img src="/site-images/gsa_file.png" class="article-image">
+<img src="/site-images/gsa-file.png" class="article-image">
