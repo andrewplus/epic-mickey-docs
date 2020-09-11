@@ -2,8 +2,6 @@
 
 This project aims to provide a collection of research and guides on the inner workings of Epic Mickey. Mostly documented by [Oswaldiscool](https://epicmickey.fandom.com/wiki/User:Oswaldiscool). Contributions are welcome via [GitHub pull request](https://github.com/andrewplus/epic-mickey-docs/pulls) as long as they're accurate and don't promote piracy. Though most of the pages on this site currently focus on the first game, many of them will apply to the sequel as well.
 
-Content is currently in the process of being transferred from [the old wiki](https://epicmickeymodding.fandom.com/). Missing articles will be added in the coming days.
-
 ## Guides
 * [Modifying Game Files](./modifying-game-files)
 * [Loading Levels](./levels)
