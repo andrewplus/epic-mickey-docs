@@ -1,0 +1,243 @@
+<!--
+// Sloppy cmdline.txt file creation for Epic Mickey. Can create the file and a Riivolution ZIP file for it. The JS is pretty hardwired to the website, but it's not that complex. 
+// Created by andrew.plus using the following:
+// jQuery: https://jquery.com/
+// jszip: https://github.com/Stuk/jszip
+// FileSaver: https://github.com/eligrey/FileSaver.js
+
+// http://andrew.plus
+-->
+<!doctype html>
+<html>
+	<head>
+		<title>Epic Mickey Wii Patch Generator</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="zipjs/dist/jszip.min.js"></script>
+		<script src="filesaver/dist/FileSaver.min.js"></script>
+		<script src="cmdline-generator.js"></script>
+
+		<style>
+			.help {
+				color:white!important;background:grey;padding:12px;display:block;text-decoration:none;
+			}
+
+			.help:hover {
+				opacity: 0.9;
+			}
+		</style>
+	</head>
+
+	<body style="max-width:500px;">
+		<h1>Epic Mickey Wii Patch Generator</h1>
+		<p>This generator can create a custom cmdline.txt file for use on a softmodded Wii. The file includes launch properties for Epic Mickey such as the boot level and various other settings. Choose your settings and click "Download Riivolution Patch" to download the Riivolution files, or click "View cmdline.txt" to view the generated cmdline file. If you need help, click <a href="help.html">here</a>.</p>
+		<p><b>NOTE: </b>Though the patch is relatively harmless, the author is not responsible for any damage to personal property or save files as a result of incorrectly using this tool or any of the documentation on this site.</p>
+
+		<a href="help.html" class="help" align="center">Need help? Click here for guide and FAQ.</a>
+
+		<hr><br>
+
+		<form action="javascript:void(0)">
+			Level:
+			<select>
+				<option disabled>#### E3 Demo ####</option>
+
+				<option value="Levels/E3Demo_VL.level">E3 Demo - Start</option>
+				<option value="Levels/E3Demo_SBW.level">E3 Demo - Steamboat Willie</option>
+				<option value="Levels/E3Demo_SR.level">E3 Demo - Scalp Rock</option>
+				<option disabled> </option>
+
+				<option disabled>#### Gremlin Village ####</option>
+				<option value="Levels/GV_ZoneA_Start.level">Slalom</option>
+				<option value="Levels/GV_ZoneB_Start.level">Ticket Booth</option>
+				<option value="Levels/GV_ZoneC_Start.level">JungleBoat Ride</option>
+				<option value="Levels/GV_ZoneD_Start.level">Asiaboat Ride</option>
+				<option value="Levels/GV_ZoneF_Start.level">World of Gremlins</option>
+				<option value="Levels/GV_ZoneI_Start.level">EuroBoat Ride</option>
+				<option value="Levels/SW_ClockWorkBoss_static.Level">ClockTower Boss</option>
+				<option disabled> </option>
+
+				<option disabled>#### Lonesome Manor ####</option>
+				<option value="Levels/HM_Start.Level">Manor House</option>
+				<option value="Levels/HM_StartI.Level">Foyer</option>
+				<option value="Levels/HM_StartF.Level">Stretching Room</option>
+				<option value="Levels/HM_StartH.Level">Library</option>
+				<option value="Levels/HM_StartK.Level">Ballroom</option>
+				<option value="Levels/HM_StartM.Level">Mad Doctor's Attic</option>
+				<option disabled> </option>
+
+				<option disabled>#### Tomorrow City ####</option>
+				<option value="Levels/TL_Start.Level">Notilus Room</option>
+				<option value="Levels/TL_D1.Level">Tomorrow city Lagoon</option>
+				<option value="Levels/TL_D2.Level">Great Big Tomorrow</option>
+				<option value="Levels/TL_MiniHub.Level">Tomorrowcity Square</option>
+				<option value="Levels/TL_SpaceMountain.Level">Space Voyage</option>
+				<option value="Levels/TL_SpaceMountain_TronPete.Level">Space Voyage Tron Pete</option>
+				<option value="Levels/TL_Visit2_Start.Level">Tomorrowcity Square Visit2</option>
+				<option value="Levels/TL_SpaceVoyage_Visit2.Level">Space Voyage Visit 2</option>
+				<option disabled> </option>
+
+				<option disabled>#### Pirates of the Wasteland ####</option>
+				<option value="Levels/PotW_Start.Level">Pirates of the Wasteland</option>
+				<option value="Levels/PotW_Start_Tortuga.Level">Tortooga</option>
+				<option value="Levels/PotW_Jungle_Start.Level">Jungle</option>
+				<option value="Levels/PotW_Start_TortugaV2.Level">Tortooga Visit 2</option>
+				<option value="Levels/PotW_Start_TortugaV2_Pirates.Level">Tortooga Visit 2 (with pirates)</option>
+				<option value="Levels/PotW_IVRide_Start.Level">Pirate Voyage</option>
+				<option value="Levels/PotW_Skull_Start.Level">Skull Island</option>
+				<option value="Levels/PotW_JollyRoger_Start.Level">Jolly Roger Boss Battle</option>
+				<option disabled> </option>
+
+				<option disabled>#### Dark Beauty Castle ####</option>
+				<option value="Levels/DBC_Start_1st.Level">Lab Visit 1</option>
+				<option value="Levels/DBC_Utilidor_3_1st.Level">Utilidor 3</option>
+				<option value="Levels/DBC_Courtyard_1st.Level">Courtyard</option>
+				<option value="Levels/DBC_Start.Level">Dark Beauty Castle Return Visit Lab</option>
+				<option value="Levels/DBC_Start_ZoneC.Level">2D Sleeping Beauty</option>
+				<option value="Levels/DBC_Start_ZoneF.Level">Throne Room</option>
+				<option value="Levels/DBC_Start_ZoneG.Level">2D Fantasia 1</option>
+				<option value="Levels/DBC_Start_ZoneGH.Level">2D Fantasia 2</option>
+				<option value="Levels/DBC_Start_ZoneH.Level">ControlTower</option>
+				<option value="Levels/DBC_Start_ZoneO.Level">Utilidor 4</option>
+				<option value="Levels/DBC_Start_ZoneP.Level">2D Fantasia 3</option>
+				<option value="Levels/DBC_Start_ZoneQ.Level">2D Fantasia 4</option>
+				<option value="Levels/DBC_Start_ZoneR.Level">Utilidor 7</option>
+				<option value="Levels/DBC_Start_ZoneK.Level">Sorrow Tower</option>
+				<option value="Levels/DBC_Start_ZoneL.Level">Grief Tower</option>
+				<option value="Levels/DBC_Start_ZoneM.Level">Loss Tower</option>
+				<option value="Levels/DBC_Start_ZoneS.Level">Inside the Blot</option>
+				<option disabled> </option>
+
+				<option disabled>#### Mickeyjunk Mountain ####</option>
+				<option value="Levels/MJM_ZoneA.Level">The Heaps</option>
+				<option value="Levels/MJM_ZoneG1.Level">The Piles 1 </option>
+				<option value="Levels/MJM_ZoneG2.Level">The Piles 2 </option>
+				<option value="Levels/MJM_ZoneE.Level">Mt. Osmore Slopes</option>
+				<option value="Levels/MJM_Zonef.Level">Mt. Osmore Caverns</option>
+				<option value="Levels/MJM_ZoneF2.Level">Mt. Osmore Caverns Visit 2</option>
+				<option disabled> </option>
+
+				<option disabled>#### HUB ####</option>
+				<option value="Levels/MeanStreet_V1_Launcher.level">Mean Street V1</option>
+				<option value="Levels/MeanStreet_V2_Launcher.level">Mean Street V2</option>
+				<option value="Levels/MeanStreet_V3_Launcher.level">Mean Street V3</option>
+				<option value="Levels/MeanStreet_V4_Launcher.level">Mean Street V4</option>
+				<option value="Levels/MeanStreet_V5_Launcher.level">Mean Street V5</option>
+				<option value="Levels/MeanStreet_V6_Launcher.level">Mean Street V6</option>
+				<option value="Levels/Adventureland_v1_Launcher.level">Ventureland V1</option>
+				<option value="Levels/Adventureland_v2_No_Pirates_Launcher.level">Ventureland V2 (no Pirates)</option>
+				<option value="Levels/Adventureland_v2_Pirates_Launcher.level">Ventureland V2 (with Pirates)</option>
+				<option value="Levels/Adventureland_v3_Launcher.level">Venutureland V3</option>
+				<option value="Levels/NewOrleans_V1.Level">Bog Easy Visit 1</option>
+				<option value="Levels/NewOrleans_V2_Ghosts.level">Bog Easy Visit 2 With Ghosts</option>
+				<option value="Levels/NewOrleans_V2_NoGhosts.level">Bog Easy Visit 2 Without Ghosts</option>
+				<option value="Levels/NewOrleans_V3.Level">Bog Easy Visit 3</option>
+				<option value="Levels/ToonTown_V1.Level">OsTown Visit 1</option>
+				<option value="Levels/ToonTown_FromMJ1.level">OsTown Visit 2</option>
+				<option value="Levels/ToonTown_FromMJ2.level">OsTown Visit 3</option>
+				<option disabled> </option>
+
+				<option disabled>#### Test Levels ####</option>
+				<option value="Levels/AI_Test.level">AI Test Map</option>
+				<option value="Levels/NPC_Test.level">NPC Test Map</option>
+				<option value="Levels/NPC_Test_2.level">NPC Test Map 2</option>
+				<option value="Levels/BuildingStandards.level">Building Standards</option>
+				<option value="Environments/_Test/Virtuos/TEST_Virtuos_PlaygroundRP.gsa">Raz's 2D Playground</option>
+				<option value="Levels/AVAParticleTests.level">AVA Particles</option>
+				<option value="Levels/SH_Lighting_Test.level">Robs Particle Zoo</option>
+				<option value="Environments/_Test/Jeff_Tse_TestLevel.gsa">Jeff Tses Particle Zoo</option>
+				<option value="Levels/Eve_Colvin_Zoo.level">Eve_Colvin_Zoo</option>
+				<option value="Levels/JM_Test_01.level">Jamey_Test</option>
+				<option value="Levels/Jimmie_AVA_Test.level">Blake_Zoo</option>
+				<option value="Levels/Jimmie_AVA_Test.level">Dallin_Zoo</option>
+				<option value="Levels/Jimmie_AVA_Test.level">Jimmie_Zoo</option>
+				<option value="Levels/Jimmie_AVA_Test.level">JohnnyB_Zoo</option>
+				<option value="levels/Common_FX_Zoo.level">Common_FX_Zoo</option>
+				<option disabled> </option>
+
+				<option disabled>#### 2D Transition Levels (typically don't work) ####</option>
+				<option value="Levels/2D_SleepingBeauty.level">2dFilm_SleepingBeauty (SW_ZoneD)</option>
+				<option value="Levels/2D_SteamboatWillie01.level">2dFilm_Steamboat01 (SW_SteamA)</option>
+				<option value="Levels/2D_SteamboatWillie02.level">2dFilm_Steamboat02 (SW_SteamB)</option>
+				<option value="Levels/2D_Steamboat03.level">2dFilm_Steamboat03 (SW_SteamC)</option>
+				<option value="Levels/2D_ClockCleaners01.level">2dFilm_ClockCleaners01 (SW_ClockA)</option>
+				<option value="Levels/2D_ClockCleaners02.level">2dFilm_ClockCleaners02 (SW_ClockB)</option>
+				<option value="Levels/2D_MickeySteamroller01.level">2dFilm_SteamRoller01 (MSUSA_ZoneP)</option>
+				<option value="Levels/2D_JungleRhythm01.level">2dFilm_JungleRhythm01 (MSUSA_ZoneM)</option>
+				<option value="Levels/2D_JungleRhythm02.level">2dFilm_JungleRhythm02 (P_ZoneA)</option>
+				<option value="Levels/2D_Castaway01.level">2dFilm_Castaway01 (P_ZoneG)</option>
+				<option value="Levels/2D_Castaway02.level">2dFilm_Castaway02 (P_ZoneZ)</option>
+				<option value="Levels/2D_Plutopia01.level">2dFilm_Plutopia01 (MSUSA_ZoneO)</option>
+				<option value="Levels/MJM_AlpineA.level">2dFilm_AlpineClimbers01 (MJM_AlpineA)</option>
+				<option value="Levels/MJM_AlpineB.level">2dFilm_AlpineClimbers02 (MJM_AlpineB)</option>
+				<option value="Levels/2D_LonesomeGhost01.level">2dFilm_LonesomeGhost01 (MSUSA_ZoneN)</option>
+				<option value="Levels/2D_LonesomeGhost02.level">2dFilm_LonesomeGhost02 (NOS_HM_ZoneC)</option>
+				<option value="Levels/2D_MadDoctor01.level">2dFilm_MadDoctor01 (NOS_HM_ZoneZ)</option>
+				<option value="Levels/2D_MadDoctor02.Level">2dFilm_MadDoctor02 (NOS_HM_Zonel)</option>
+				<option value="Levels/2D_Fantasia01.level">2dFilm_Fantasia01</option>
+				<option value="Levels/2D_Fantasia02.level">2dFilm_Fantasia02</option>
+				<option value="Levels/2D_Fantasia03.level">2dFilm_Fantasia03</option>
+				<option value="Levels/2D_Fantasia04.level">2dFilm_Fantasia04</option>
+				<option value="Levels/MJM_KnightA.level">2dFilm_OhWhatAKnight01</option>
+				<option value="Levels/MJM_TrolleyA.level">2dFilm_TrolleyTrouble01 (MJM_TrolleyA)</option>
+				<option value="Levels/2D_MechanicalMan01.level">2dFilm_Mickey'sMechanicalMan01</option>
+				<option value="Levels/MJM_GunsA.level">2dFilm_GreatGuns</option>
+				<option value="Levels/2D_ThruTheMirror.level">2dFilm_ThruTheMirror</option>
+				<option value="Levels/2D_MechanicalMan02.level">2dFilm_Mickey'sMechanicalMan02</option>
+				<option value="Levels/2D_YeOldenDays.level">2dFilm_YeOldenDays(DBC_2DOlden)</option>
+				<option value="Levels/2D_Beanstalk.level">2dFilm_MickeyAndTheBeanstalk(DBC_2DZBeanstalk)</option>
+				<option value="Levels/2D_TheWhalers.level">2dFilm_TheWhalers(AL_P_2DWhaler)</option>
+				<option value="Levels/2D_Shanghaied.level">2dFilm_Shanghaied(AL_P_2DShanghaied)</option>
+				<option value="Levels/2D_HauntedHouse01.level">2dFilm_HauntedHouseHallway1(NOS_HM_2DHallwayA)</option>
+				<option value="Levels/2D_HauntedHouse02.level">2dFilm_HauntedHouseHallway2(NOS_HM_2DHallwayB)</option>
+				<option value="Levels/2D_HauntedHouse03.level">2dFilm_HauntedHouseHallway3(NOS_HM_2DHallwayC)</option>
+				<option value="Levels/2D_Plutopia02.level">2dFilm_Plutopia2(TL_2DPlutopia2)</option>
+				<option disabled> </option>
+
+				<option disabled>#### 2D Interior Levels (typically don't work) ####</option>
+				<option value="Environments/ThePark/MeanStreetUSA/Zones/GSA/MSUSA_2D_walts.gsa">Interior_2D_Walts</option>
+				<option value="Environments/ThePark/MeanStreetUSA/Zones/GSA/MSUSA_2D_IceCream.gsa">Interior_2D_IceCream</option>
+				<option value="Environments/ThePark/MeanStreetUSA/GSA/MSUSA_2D_Detective.gsa">Interior_2D_Detective</option>
+				<option value="Environments/ThePark/AdventureLand/TikiRoom/Zones/gsa/P_2D_Tiki.gsa">Interior_2D_TikiHut</option>
+				<option value="Environments/ThePark/AdventureLand/Zones/GSA/AL_Minihub_2D_Jungleshop.gsa">Interior_2D_JungleHutShop</option>
+				<option value="Environments/ThePark/AdventureLand/SwissFamily/Zones/GSA/AL_Minihub_2D_swiss_family_robinson.gsa">Interior_2D_SFR_TreeHouse(abandoned)</option>
+				<option value="Environments/ThePark/AdventureLand/SwissFamily/Zones/GSA/AL_Minihub_2D_swiss_family_robinson_lived.gsa">Interior_2D_SFR_TreeHouse(lived)</option>
+				<option value="Environments/ThePark/ToonTown/Zones/GSA/TT_2D_MickeyHome.gsa">Interior_2D_MickeyHome</option>
+				<option value="Environments/ThePark/ToonTown/GSA/TT_2D_OrtensiaHome.gsa">Interior_2D_OrtensiaHome</option>
+				<option value="Environments/ThePark/ToonTown/Zones/GSA/TT_2D_ClaraKitchen.gsa">Interior_2D_ClaraKitchen</option>
+				<option value="Environments/ThePark/TomorrowLand/GSA/TL_2D_Nautilus.gsa">Interior_2D_Nautilus</option>
+				<option value="Environments/ThePark/NewOrleansSquare/GSA/NOS_2D_Hiddendock.gsa">Interior_2D_Hiddendock</option>
+				<option value="Environments/ThePark/AdventureLand/Pirates/GSA/P_2D_Jail.gsa">Interior_2D_Jail</option>
+				<option value="Environments/ThePark/AdventureLand/Pirates/GSA/P_2D_Teepee.gsa">Interior_2D_Teepee</option>
+				<option value="Environments/ThePark/fantasyland/SmallWorld/Zones/SW_2D_greminhut.gsa">Interior_2D_GreminHut</option>
+				<option value="Environments/ThePark/NewOrleansSquare/Zones/GSA/NOS_2D_NewOrleansShop.gsa">Interior_2D_NewOrleansShop</option>
+				<option value="Environments/ThePark/NewOrleansSquare/Zones/GSA/NOS_2D_MarkTwainsShip.gsa">Interior_2D_MarkTwainsShip</option>
+				<option value="Environments/ThePark/MeanStreetUSA/Zones/GSA/MSUSA_2D_MSUSAemporiumr.gsa">Interior_2D_Emporiumr</option>
+				<option value="Environments/ThePark/AdventureLand/Pirates/GSA/P_2D_Jail.gsa">Interior_2D_Jail</option>
+				<option disabled> </option>
+
+				<option disabled>#### Misc ####</option>
+				<option value="Levels/Main_Menu.Level">Start Screen</option>
+				<option value="Levels/mickey_arcade.Level">Mickey Arcade</option>
+				<option value="Levels/SW_ClockWorkBoss_static.Level">ClockTower Boss</option>
+				<option value="Levels/ShadowBlot_Boss.Level">ShadowBlot Lit</option>
+			</select>
+
+			<br><br>
+
+			<input type="checkbox" class="abilities"> Enable all abilities (gives Mickey the brush, spin move, and 5 of each sketch) <br>
+			<input type="checkbox" class="strap" checked> Show wrist strap screen (uncheck box to bypass)
+
+			<br><br><button id="file">Download Riivolution Patch (~2KB)</button> <button id="showcmdline">View cmdline.txt</button> <br><br>
+		</form>
+
+		<p><b>cmdline.txt:</b></p>
+		<code class="output" style="background:lightgrey;display: block;">
+			&nbsp;
+		</code>
+
+		<hr>
+		<p>&copy;2018 <a href="/" target="_blank">andrew.plus</a>. This project uses <a href="https://github.com/Stuk/jszip" target="_blank">JSZip</a> (<a href="https://github.com/Stuk/jszip/blob/master/LICENSE.markdown" target="_blank">license</a>) and <a href="https://github.com/eligrey/FileSaver.js/" target="_blank">FileSaver</a> (<a href="https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md" target="_blank">license</a>). </p>
+		<p><a href="https://github.com/andrewplus/emtool">View repo</a></p>
+	</body>
+</html>

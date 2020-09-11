@@ -1,0 +1,23 @@
+body.desktop {
+    overflow-x: hidden;
+
+    scrollbar-base-color: rgb(134, 134, 134);
+    scrollbar-face-color: rgb(134, 134, 134);
+    scrollbar-track-color: rgb(80, 80, 80);
+    scrollbar-arrow-color: rgb(134, 134, 134);
+
+    main {
+        border: 0;
+        width: 100vw;
+        min-height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .overlay {
+        width: 80%;
+        left: 10%;
+        height: 90%;
+        max-height: 500px !important;
+    }
+}

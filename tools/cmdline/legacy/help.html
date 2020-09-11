@@ -1,0 +1,67 @@
+<!--
+// Sloppy cmdline.txt file creation for Epic Mickey. Can create the file and a Riivolution ZIP file for it. The JS is pretty hardwired to the website, but it's not that complex. 
+// Created by andrew.plus using the following:
+// jQuery: https://jquery.com/
+// jszip: https://github.com/Stuk/jszip
+// FileSaver: https://github.com/eligrey/FileSaver.js
+
+// http://andrew.plus
+-->
+<!doctype html>
+<html>
+	<head>
+		<title>Help - Epic Mickey Wii Patch Generator</title>
+	</head>
+
+	<body style="max-width:500px;">
+		<h1>Riivolution Patch Help</h1>
+		<p><a href="index.html"><- back</a></p>
+		<p>This tool allows for custom cmdline.txt files to be generated for Epic Mickey to load levels from any point in the game. The "Download Riivolution Patch" feature allows for these files to be used on a softmodded Wii console using Riivolution, an on-the-fly game patcher that allows users to place content on SD cards to be read by the game during regular play. This app is typically used for game modding.</p>
+
+		<h3>You will need...</h3>
+		<ul>
+			<li>A softmodded Wii (<a href="https://wii.guide/" target="_blank">guide</a>)</li>
+			<li><a href="http://www.wiibrew.org/wiki/Riivolution">Riivolution</a></li>
+			<li>An SD Card</li>
+			<li>Epic Mickey Wii disc (US version tested, others untested but should work)</li>
+		</ul>
+
+		<h3>Guide</h3>
+		<ol type="1">
+			<li>
+				Insert your Wii's SD card into your computer. Make sure you have <a href="http://www.wiibrew.org/wiki/Riivolution">Riivolution</a> installed.
+			</li>
+
+			<li>
+				Go to the <a href="index.html">generator</a> and select a level. Once you're done, click the "Download Riivolution Patch" button. A ZIP file should begin downloading. 
+			</li>
+
+			<li>
+				Extract the ZIP file that you downloaded to the root of your SD card. If you're asked if you want to replace files or merge folders, click OK to all. 
+			</li>
+
+			<li>
+				Remove the SD card from your computer and insert it into your Wii or Wii U console. Make sure your Epic Mickey game disc is inserted. 
+			</li>
+
+			<li>
+				Open the Homebrew Channel and launch Riivolution. 
+			</li>
+
+			<li>
+				Once Riivolution is all loaded up, make sure "Level Patch" is enabled. Once you're ready to launch the game, select the "Launch" button to the right of the screen. Epic Mickey will then boot with your desired settings.
+			</li>
+		</ol>
+
+		<h3>FAQ</h3>
+		<ul>
+			<li><b>Why isn't the patch showing up in Riivolution?</b> - Make sure the Epic Mickey game disc is inserted and make sure the ZIP file was extracted to the root of the SD card.</li>
+			<li><b>Can this be used with Dolphin?</b> - To load levels in Dolphin, it's recommended to use <a href="https://wiki.gbatemp.net/wiki/WiiScrubber">WiiScrubber</a> or another method to directly edit the ISO file from your computer.</li>
+			<li><b>Why won't my ZIP file download?</b> - Your browser may too old to support the patch generator. It uses relatively new web technologies, so it needs a modern browser to work properly. Try updating your browser, or downloading the latest version of <a href="https://www.google.com/chrome/">Chrome</a>, <a href="https://www.opera.com/">Opera</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</li>
+		</ul>
+
+		<h3>Support</h3>
+		<p>You can contact me through one of the links on my <a href="/">homepage</a>. I'm most likely to see your comments quickly through Twitter or Discord.</p>
+
+	</body>
+</html>
