@@ -31,10 +31,10 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tbody>
             <tr>
                 <th>
-                    <p>Trigger</p>
+                    Trigger
                 </th>
                 <th>
-                    <p>Text</p>
+                    Text
                 </th>
             </tr>
             <tr>
@@ -105,13 +105,13 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tbody>
             <tr>
                 <th>
-                    <p>Speaker</p>
+                    Speaker
                 </th>
                 <th>
-                    <p>Trigger</p>
+                    Trigger
                 </th>
                 <th>
-                    <p>Text</p>
+                    Text
                 </th>
             </tr>
             <tr>
