@@ -11,7 +11,7 @@ A tool exists that can easily create Riivolution patches for Epic Mickey. It can
 ### Dolphin
 The cmdline.txt file can be modified manually with a text editor such as Notepad and reinserted into the game. The first value (everything before '-csg') defines the level path that the Epic Mickey launcher will load first. Alternatively, there is a tool for generating cmdline.txt files which can be found [here](./tools/cmdline). For help with modifying the file and reinserting it into the game, consult the [Modifying Game Files](./modifying-game-files) page.
 
-### Files
+## Files
 All level data is stored inside [pak files](./pak-files) located the packfiles directory of the game's root.
 
 ### .level files
