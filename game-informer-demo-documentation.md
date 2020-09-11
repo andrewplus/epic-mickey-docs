@@ -1,6 +1,6 @@
 # Game Informer Demo Documentation
 
-Below is documentation about the leftover Lua files from the demo presented to Game Informer for the November 2009 issue. Excerpts of code are provided to provide additional context. Some code may be paraphrased for simplicity. This page is a work in progress.
+Below is documentation about the leftover Lua files from the demo presented to Game Informer for the November 2009 issue. Paraphrased excerpts of code are provided to provide additional context.
 
 # Demo.lua
 
@@ -19,10 +19,10 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
 
 * Gremlin Gus
 * Gremlin Jamface (green)
-    * Most of the code refers to him as Gremlin Ted.
-    * Would have fixed the mechanical arm if returned his wrench.
+  * Most of the code refers to him as Gremlin Ted.
+  * Would have fixed the mechanical arm if returned his wrench.
 * Gremlin Barry (blue)
-    * Most of the code refers to him as Gremlin Ghengis.
+  * Most of the code refers to him as Gremlin Ghengis.
 
 ## Dialog boxes/UI text
 
@@ -390,3 +390,19 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
     </table>
 </div>
 
+# Demo_GV_isle1.lua
+
+Coming soon.
+
+# Demo_GV_isle2.lua
+
+Coming soon.
+
+# Demo_GV_isle3U.lua
+
+Coming soon.
+
+# Additional links
+
+* Lua file documentation (page coming soon)
+* *[Oswaldiscool/Findings Sandbox](https://epicmickey.wiki/User:Oswaldiscool/Findings_Sandbox)* on [Epic Mickey Wiki](https://epicmickey.wiki)
