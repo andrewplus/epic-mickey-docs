@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title>README.html</title>
+		<style>
+			.wf { color: blue }
+		</style>
+	</head>
+	
+	<body style="font-family:sans-serif;line-height:1.5;margin:30px">
+		<div style="width:800px">
+			<h1>Renaming and Conversion Tool for Epic Mickey</h1>
+			<p>
+				Please read the following before using the program:
+			</p>
+			
+			<h2>Requirements</h2>
+			<p>
+				<ul>
+					<li>Renaming and Conversion Tool for Epic Mickey (this program)</li>
+					<li><a href="http://www.scampers.org/steve/sms/other.htm" target="_blank">Ravioli Game Tools</a> (version 2.10 or newer)</li>
+					<li>Epic Mickey extracted game files (<a href="https://epicmickeymodding.fandom.com/wiki/Modifying_Game_Files" target="_blank">how?</a>)</li>
+					<li>A computer with Windows 7 or newer</li>
+					<li>~4GB of free space for audio files</li>
+				</ul>
+			</p>
+			
+			<h2>Notes</h2>
+			<p>
+				<ul>
+					<li>The amount of time that the process will take to run will depend on your computer's speed and available resources. It may take up to 10 minutes.</li>
+					<li><strong>Your CPU usage will spike while the process is running</strong>, possibly causing your PC to become slower until it is complete. I recommend grabbing a snack or finding something else to do while the program is working.</li>
+					<li>Some files cannot be renamed due to there being no name in <i>SoundbanksInfo.xml</i>. These files are placed in <i>__Converted\Unnamed\</i>. This is not a bug.</li>
+					<li>If the program closes unexpectedly or you encounter an error, check <i>__Converted\log.txt</i>.</li>
+					<li>Check <i>__Converted\skipped_files.txt</i> after the process is complete to make sure the program didn't have to skip any files.</li>
+					<li>Please report any errors to me through one of the <a href="https://andrew.plus" target="_blank">contact links on my site</a>.</li>
+				</ul>
+			</p>
+			
+			<h2>Instructions</h2>
+			<p>
+				<ol>
+					<h3>Setting up files</h3>
+					<li>Create a <span class="wf">working folder</span> somewhere on your PC.</li>
+					<li>Navigate to your Epic Mickey extracted game files and go to <i>Audio\Wii\</i>. Select all of the files in the folder (ctrl+a) and copy them to the clipboard. Then, paste them into your <span class="wf">working folder</span>.</li>
+					<li>Close the Epic Mickey game files and go back to your <span class="wf">working folder</span>. You should see a <i>Localize</i> folder. This contains different language-specific audio files. Copy any of the files you would like to process into the root of your <span class="wf">working folder</span>. Files in <i>Localize</i> <strong>will not be processed</strong> unless they are moved to the root.</li>
+					
+					<h3>Ravioli Game Tools</h3>
+					<li>Navigate to wherever you installed Ravioli Game Tools and run <i>RExtractor.exe</i>.</li>
+					<li>Click the <i>Browse...</i> button next to <i>Input file(s)</i> and locate your <span class="wf">working folder</span>. Select <strong>all</strong> of the bnk files in this folder and click <i>Open</i>.</li>
+					<li>Now click the <i>Browse...</i> button next to <i>Output directory</i> and set it to your <span class="wf">working folder</span>.</li>
+					<li>Click the <i>Start</i> button. Once it is complete, you may close Ravioli Game Tools.</li>
+					
+					<h3>Running the Renaming and Conversion Tool</h3>
+					<li>Unzip the <i>Renaming and Conversion Tool</i> into your <span class="wf">working folder</span>. (EMAudioProcess.zip)</li>
+					<li>Go to your <span class="wf">working folder</span> and run <i>_AudioProcess.exe</i>. Type "start" in the window that pops up.</li>
+					<li>The program will now rename and process all of the wav, wem, and ogg files in your <span class="wf">working folder</span>. Once it is complete, the files can be found in the <i>__Completed</i> folder.</li>
+				</ol>
+			</p>
+		</div>
+		
+		<hr>
+		
+		<div style="width:800px">
+			<h2>Program information</h2>
+			<p>This program was written in Python 3.7 by <a href="https://andrew.plus" target="_blank">Andrew Cole</a>. The (very messy and unreadable) source code can be found in <i>_rename_and_convert.py.txt</i>.</p>
+			
+			<h2>Open source licenses</h2>
+			<h3>ww2ogg</h3>
+			<pre>
+Copyright (c) 2002, Xiph.org Foundation
+Copyright (c) 2009-2016, Adam Gashlin
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+- Neither the name of the Xiph.org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+			</pre>
+			<h3>vgmstream</h3>
+			<pre>
+Copyright (c) 2008-2019 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
+						Christopher Snowhill, NicknineTheEagle, bxaimc,
+						Thealexbarney, CyberBotX, et al
+
+Portions Copyright (c) 2004-2008, Marko Kreen
+Portions Copyright 2001-2007  jagarl / Kazunori Ueno &lt;jagarl@creator.club.ne.jp&gt;
+Portions Copyright (c) 1998, Justin Frankel/Nullsoft Inc.
+Portions Copyright (C) 2006 Nullsoft, Inc.
+Portions Copyright (c) 2005-2007 Paul Hsieh
+Portions Public Domain originating with Sun Microsystems
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+			</pre>
+		</div>
+	</body>
+</html>

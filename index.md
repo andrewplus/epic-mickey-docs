@@ -24,3 +24,7 @@ Most of content from [the old wiki](https://epicmickeymodding.fandom.com/) has b
 * [Game Informer Demo Documentation](./game-informer-demo-documentation)
 * Found Scrapped Content
 * Mickey Arcade Documentation
+
+## Tools
+* [Epic Mickey Config Editor](./tools/cmdline)
+* [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
