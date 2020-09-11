@@ -4,9 +4,9 @@ Epic Mickey contains many audio files of varying filetypes. Initially, their fil
 
 ## Automatically convert, extract, and rename all files
 
-The easiest way to browse through the Epic Mickey audio files is by using the *[Epic Mickey Renaming and Conversion Tool](https://1drv.ms/u/s!As1xN7fhSYEyjVPhSA8PVbzmhfR2?e=Llcip8)*. It goes through all audio files, renames them to the official readable names used by the game, and converts them to formats that can be opened in VLC. Simply download the zip file and closely follow the instructions in *_README.html*. The source code can be found in *_rename_and_convert.py.txt*.
+The easiest way to browse through the Epic Mickey audio files is by using the *[Epic Mickey Renaming and Conversion Tool](./tools/batch-audio-tool)*. It goes through all audio files, renames them to the official readable names used by the game, and converts them to formats that can be opened in VLC. Simply download the zip file and closely follow the instructions in *_README.html*. The source code can be found in *_rename_and_convert.py.txt*.
 
-**NOTE:** A small amount of anti-virus software falsely identifies this tool as a trojan. If the executable is quarantined by Windows Defender, please download the latest [security intelligence update](https://www.microsoft.com/en-us/wdsi/definitions), which should have the program whitelisted. Check the [VirusTotal scan](https://www.virustotal.com/gui/file/4a06b4d3932a1edda64b32b3e6bbcaa5bd51d3949283b523cda0e55b65094d22/detection) for a list of anti-virus test results.
+**NOTE:** A small number of anti-virus software falsely identifies this tool as a trojan. If the executable is quarantined by Windows Defender, please download the latest [security intelligence update](https://www.microsoft.com/en-us/wdsi/definitions), which should have the program whitelisted. Check the [VirusTotal scan](https://www.virustotal.com/gui/file/4a06b4d3932a1edda64b32b3e6bbcaa5bd51d3949283b523cda0e55b65094d22/detection) for a list of anti-virus test results.
 
 ## Manually extract and convert files
 
