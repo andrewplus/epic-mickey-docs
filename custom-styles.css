@@ -8,3 +8,8 @@
 #main_content_wrap {
   border-top: 0px;
 }
+
+.article-image {
+  max-width: 50%;
+  display: block;
+}
