@@ -39,7 +39,7 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    DemoLabBooksCaught == 2
+DemoLabBooksCaught == 2
                 </pre>
             </td>
             <td>
@@ -49,7 +49,7 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    DemoLabBooksCaught == 1
+DemoLabBooksCaught == 1
                 </pre>
             </td>
             <td>
@@ -59,7 +59,7 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    PauseMenuObjectives()
+PauseMenuObjectives()
                 </pre>
             </td>
             <td>
@@ -70,8 +70,8 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    DemoLab_MirrorRoom()
-                    ⤷ Demo_ExitTried == 1
+DemoLab_MirrorRoom()
+⤷ Demo_ExitTried == 1
                 </pre>
             </td>
             <td>
@@ -85,7 +85,7 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    Demo_2DObject01()
+Demo_2DObject01()
                 </pre>
             </td>
             <td rowspan="3">
@@ -96,14 +96,14 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         <tr>
             <td>
                 <pre>
-                    Demo_2DObject02()
+Demo_2DObject02()
                 </pre>
             </td>
         </tr>
         <tr>
             <td>
                 <pre>
-                    Demo_2DObject03()
+Demo_2DObject03()
                 </pre>
             </td>
         </tr>
