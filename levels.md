@@ -6,10 +6,10 @@ Levels are the separate areas that the Mickey launcher can load.
 Epic Mickey has a property called "ShowDevLevelLoad" in ConfigFiles.ini that is assumed add an option to access a level select screen on the game's menu like it does on the PC version of Epic Mickey 2. Sadly, toggling this option causes no changes to take effect and there is no known method of getting this to work, so a more roundabout method must be used to load levels.
 
 ### Softmodded Wii Console
-A tool exists that can easily create Riivolution patches for Epic Mickey. It patches the cmdline.txt file, so instead of booting into the menu, the game will instead boot into the specified level. It requires a computer with an SD card slot and is completely web-based, so no programs are required to be installed. The tool and a more detailed guide can be found [here](http://andrew.plus/emtool/).
+A tool exists that can easily create Riivolution patches for Epic Mickey. It can be used to generate custom cmdline.txt files, so instead of booting into the menu, the game will instead boot into the specified level. It is completely web based, so no programs are required to be installed. The Riivolution homebrew app, an SD card reader, and an SD card are required. The tool can be found [here](http://andrew.plus/emtool/).
 
 ### Dolphin
-The cmdline.txt file can be modified manually with a text editor such as Notepad and reinserted into the game. The first value (everything before '-csg') defines the level path that the Epic Mickey launcher will load first. For help with modifying the file and reinserting it into the game, consult the [Modifying Game Files](./modifying-game-files) page.
+The cmdline.txt file can be modified manually with a text editor such as Notepad and reinserted into the game. The first value (everything before '-csg') defines the level path that the Epic Mickey launcher will load first. Alternatively, there is a tool for generating cmdline.txt files which can be found [here](http://andrew.plus/emtool/). For help with modifying the file and reinserting it into the game, consult the [Modifying Game Files](./modifying-game-files) page.
 
 ### Files
 All level data is stored inside [pak files](./pak-files) located the packfiles directory of the game's root.
