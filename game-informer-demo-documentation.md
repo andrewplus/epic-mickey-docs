@@ -38,9 +38,7 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
         </tr>
         <tr>
             <td>
-                <pre>
-DemoLabBooksCaught == 2
-                </pre>
+                <pre>DemoLabBooksCaught == 2</pre>
             </td>
             <td>
                 The Scrapper is aligned with the destructive force of Thinner. He is powerful and dangerous- a product of directness and the pursuit of bettering himself at all turns.&nbsp; He realizes that his needs are paramount and as such accumulates power quickly. His mastery of Thinner and thus destruction is unparalleled.
@@ -48,9 +46,7 @@ DemoLabBooksCaught == 2
         </tr>
         <tr>
             <td>
-                <pre>
-DemoLabBooksCaught == 1
-                </pre>
+                <pre>DemoLabBooksCaught == 1</pre>
             </td>
             <td>
                 The Hero is influenced by the creative force of Paint. He is a builder and restorer and as such he draws allies to him that aid in his journey.&nbsp; In his striving to improve and uplift the world around him he also uplifts himself through acts of nobility and sacrifice.
@@ -58,9 +54,7 @@ DemoLabBooksCaught == 1
         </tr>
         <tr>
             <td>
-                <pre>
-PauseMenuObjectives()
-                </pre>
+                <pre>PauseMenuObjectives()</pre>
             </td>
             <td>
                 Mad Doctor's lab:
@@ -69,10 +63,8 @@ PauseMenuObjectives()
         </tr>
         <tr>
             <td>
-                <pre>
-DemoLab_MirrorRoom()
-⤷ Demo_ExitTried == 1
-                </pre>
+                <pre>DemoLab_MirrorRoom()
+⤷ Demo_ExitTried == 1</pre>
             </td>
             <td>
                 Leave the Mad Doctor's Lab?
@@ -84,9 +76,7 @@ DemoLab_MirrorRoom()
         </tr>
         <tr>
             <td>
-                <pre>
-Demo_2DObject01()
-                </pre>
+                <pre>Demo_2DObject01()</pre>
             </td>
             <td rowspan="3">
                 Goal:
@@ -95,16 +85,12 @@ Demo_2DObject01()
         </tr>
         <tr>
             <td>
-                <pre>
-Demo_2DObject02()
-                </pre>
+                <pre>Demo_2DObject02()</pre>
             </td>
         </tr>
         <tr>
             <td>
-                <pre>
-Demo_2DObject03()
-                </pre>
+                <pre>Demo_2DObject03()</pre>
             </td>
         </tr>
     </tbody>
