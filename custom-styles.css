@@ -26,6 +26,10 @@ table {
   min-width: 640px;
 }
 
+li, table li {
+  font-size: 16px;
+}
+
 .article-table {
   overflow-x: auto;
   min-width: 100%;
