@@ -57,5 +57,14 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script>
+      var images = document.querySelectorAll(".article-image");
+      images.forEach(function (el) {
+        el.style.cursor = "pointer";
+        return el.addEventListener("click", function (event) {
+          window.open(el.src);
+        });
+      });
+    </script>
   </body>
 </html>
