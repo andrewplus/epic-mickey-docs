@@ -21,3 +21,13 @@
     margin-right: auto;
   }
 }
+
+table {
+  min-width: 640px;
+}
+
+.article-table {
+  overflow-x: auto;
+  min-width: 100%;
+  table-layout: fixed;
+}
