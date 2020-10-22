@@ -8,3 +8,34 @@
 #main_content_wrap {
   border-top: 0px;
 }
+
+.article-image {
+  max-width: 50%;
+  display: block;
+}
+
+@media screen and (max-width: 550px) {
+  .article-image {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+table {
+  min-width: 640px;
+}
+
+pre, code {
+  font-size: 13px;
+}
+
+table *:not(pre) {
+  font-size: 16px;
+}
+
+.article-table {
+  overflow-x: auto;
+  min-width: 100%;
+  table-layout: fixed;
+}

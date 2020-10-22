@@ -11,7 +11,7 @@ A tool exists that can easily create Riivolution patches for Epic Mickey. It can
 ### Dolphin
 The cmdline.txt file can be modified manually with a text editor such as Notepad and reinserted into the game. The first value (everything before '-csg') defines the level path that the Epic Mickey launcher will load first. Alternatively, there is a tool for generating cmdline.txt files which can be found [here](./tools/cmdline). For help with modifying the file and reinserting it into the game, consult the [Modifying Game Files](./modifying-game-files) page.
 
-### Files
+## Files
 All level data is stored inside [pak files](./pak-files) located the packfiles directory of the game's root.
 
 ### .level files
@@ -50,3 +50,5 @@ spatter.bnk
 
 ### .gsa and .bin files
 .GSA files are referenced all over Epic Mickey's files, but you'd have a hard time finding them anywhere. This is because .gsa files are actually .bin files in the filesystem. They tend to be found in the Environments folder. They're more what you'd expect a .level file to be, acting as a sort of executable for each level. Since these files are mostly binary, there is no known way to open or modify these. The launcher is proven to be capable of loading .gsa files on their own without a corresponding .level file, but this has only been tested to work with very few .gsa files.
+
+<img src="/site-images/gsa-file.png" class="article-image">

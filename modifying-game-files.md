@@ -1,6 +1,6 @@
 # Modifying Game Files
 
-The files of Epic Mickey can be modified and played in Dolphin or on a modded Wii console. Below are some guides on manipulating the files. There are other ways to access and modify game files, but below are some of the suggested methods. The following instructions only apply to Windows users.
+The files of Epic Mickey can be modified and played in Dolphin or on a modded Wii console. Below are some guides on manipulating the files. There are other ways to go about this, but these are the suggested methods. The following instructions only apply to Windows users.
 
 **Note:** This article assumes that you already possess a legally-obtained copy of Epic Mickey.
 
@@ -18,9 +18,9 @@ If you backed up your game disc using the above method, you will likely find a W
 
 Before using this method, ensure you're using the latest version of Dolphin.
 
-1. Make sure Dolphin is set up to search the folder of your ISO/WBFS file. To do this, click the Config icon on the top bar, click the Paths tab and click Add.
+1. Make sure Dolphin is set up to search the folder of your ISO/WBFS file. To do this, click the Config icon on the top bar, click the Paths tab and click Add. <img src="/site-images/add-paths.png" class="article-image">
 2. In Dolphin, right-click the game, click Properties and click the Filesystem tab.
-3. Right-click Disc and click 'Extract Entire Disc...'. Extract it to somewhere on your PC.  
+3. Right-click Disc and click 'Extract Entire Disc...'. Extract it to somewhere on your PC. <img src="/site-images/extract-disc.png" class="article-image">
 4. Now you'll need to add your extracted game. Repeat step 1, but this time, navigate to the location where you extracted the game and add the DATA\\sys\\ folder. 
 5. You can now freely edit any of the files in DATA\\files\\. 
 
@@ -35,8 +35,8 @@ This method is cumbersome for editing multiple game files, can ruin your game IS
 3. Extract the downloaded RAR file using 7zip or WinRAR.
 4. **If your ISO is already open in Dolphin, exit the emulation before proceeding.**
 5. Navigate to the folder that you extracted WiiScrubber to and open *WIIScrubber.exe*.
-6. Click the Load ISO button in the top left corner and open your Epic Mickey ISO file.  
-7. Right-click on the file you would like to edit and click Extract. Choose a location on your PC to extract to.
+6. Click the Load ISO button in the top left corner and open your Epic Mickey ISO file. <img src="/site-images/load-iso.png" class="article-image">
+7. Right-click on the file you would like to edit and click Extract. Choose a location on your PC to extract to. <img src="/site-images/extract-wiiscrubber.png" class="article-image">
 8. Edit the file in your program of choice. Once you're done, right-click on the file in WiiScrubber again, but this time, click Replace and select your edited file.
 9. Once WiiScrubber is finished modifying your ISO file, **make sure to close WiiScrubber before playing the game in Dolphin**. Dolphin cannot load the ISO while the file is open in another program.
 10. Open your now-modified ISO in Dolphin

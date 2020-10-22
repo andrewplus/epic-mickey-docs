@@ -12,6 +12,8 @@ PAK files can be extracted using a tool called QuickBMS and a script written by 
 5. Open QuickBMS.exe and follow the steps (select BMS script, select file, select output folder). I recommend creating a new folder for your files to be exported to. **(NOTE: To extract multiple or all of the PAK files, select them all when prompted by QuickBMS. If the program gets stuck on duplicate files, follow the instructions onscreen to tell it to *skip all future conflicts*.)**
 6. If the files were extracted successfully, you can now close the BMS terminal and navigate to your output folder.
 
+<img src="/site-images/pak-working-folder.png" class="article-image">
+
 ## Reinserting modified PAK files
 
 Currently, there is no known way to modify PAK file contents, repackage them, and reinsert them into the game.
