@@ -14,7 +14,7 @@ Most of content from [the old wiki](https://epicmickeymodding.fandom.com/) has b
 * [Pak Files](./pak-files)
 * [Audio Files](./audio-files)
 * [Cutscene Files](./cutscene-files)
-* Lua Files
+* [Lua Files](./lua-files)
 * Unreadable File Formats
 * [Levels](./levels)
 
