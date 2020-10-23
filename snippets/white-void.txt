@@ -1,0 +1,2 @@
+; cmdline.txt
+-Set RenderBackgroundColorR=225.0 -Set RenderBackgroundColorG=225.0 -Set RenderBackgroundColorB=225.0

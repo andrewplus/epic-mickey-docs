@@ -17,7 +17,7 @@ This project aims to provide a collection of research and guides on the inner wo
 * [Levels](./levels)
 
 ## Documentation/Research
-* Test Levels
+* [Test Levels](./test-levels)
 * ConfigFiles.ini Property Documentation
 * [Game Informer Demo Documentation](./game-informer-demo-documentation)
 * Found Scrapped Content
