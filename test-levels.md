@@ -3,7 +3,7 @@
 Certain unused test levels remain in the files of Epic Mickey. For help with loading them, consult the [levels page](./levels).
 
 ## Epic Mickey
-### North America
+### North America/Europe
 <div class="article-table">
     <table>
         <tbody>
@@ -75,7 +75,7 @@ Certain unused test levels remain in the files of Epic Mickey. For help with loa
             </tr>
             <tr>
                 <td>
-                    Blake_Zoo<br>Dallin_Zoo<br>Jimmie_Zoo<br>JohnnyB_Zoo
+                    Blake_Zoo,<br>Dallin_Zoo,<br>Jimmie_Zoo,<br>JohnnyB_Zoo
                 </td>
                 <td>
                     Levels/Jimmie_AVA_Test.level
@@ -114,18 +114,18 @@ Certain unused test levels remain in the files of Epic Mickey. For help with loa
                     Levels/mickey_arcade.Level
                 </td>
                 <td>
-                    No lighting, completely black. [Changing the void color to white](./snippets/white-void.txt) makes it a bit more navigable.<br>Author: Mark Capers
+                    No lighting, completely black. <a href="./snippets/white-void.txt" target="_blank">Changing the void color to white</a> makes it a bit more navigable.<br>Author: Mark Capers
                 </td>
             </tr>
             <tr>
                 <td>
-                    Building Standards<br>JeffM's test level
+                    Building Standards,<br>JeffM's test level
                 </td>
                 <td>
                     Levels/BuildingStandards.level
                 </td>
                 <td>
-                    No lighting, mostly black. [Changing the void color to white](./snippets/white-void.txt) makes it a bit more navigable.
+                    No lighting, mostly black. <a href="./snippets/white-void.txt" target="_blank">Changing the void color to white</a> makes it a bit more navigable.
                 </td>
             </tr>
             <tr>
@@ -144,6 +144,7 @@ Certain unused test levels remain in the files of Epic Mickey. For help with loa
 </div>
 
 ### Japan
+All of the test levels from the North American/European versions exist in the Japanese version, in addition to the following Japan-exclusive level:
 <div class="article-table">
     <table>
         <tbody>
