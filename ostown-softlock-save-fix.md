@@ -9,10 +9,10 @@ Though most speedrunners know to avoid OsTown after executing the Shadow Blot sk
 ### Dolphin players
 For this, you will need a [HxD](https://mh-nexus.de/en/hxd/) (recommended) or another hex editor.
 
-1. Right click Epic Mickey the Dolphin game list and click __Open Wii Save Folder__.
-2. Open the appropriate .dat file with HxD. If you are unsure which to open, consult the image below.<img src="/site-images/save-legend.png" class="article-image">
-3. In HxD, select __Search__ and click __Go to...__.<img src="/site-images/goto.png" class="article-image">
-4. Type "35D" in the text field and leave all the other settings at their defaults. Click __OK__.
+1. Right click Epic Mickey in the Dolphin game list and click __Open Wii Save Folder__.
+2. Open the appropriate .dat file with HxD. If you are unsure of which to open, consult the image below.<img src="/site-images/save-legend.png" class="article-image">
+3. In HxD, click __Search__ and select __Go to...__.<img src="/site-images/goto.png" class="article-image">
+4. Type "__35D__" in the text field and leave all the other settings as their defaults. Click __OK__.
 5. Your text cursor should now be at index 0x35D. Type "00" to replace the "01" (no need to backspace anything).<img src="/site-images/edited-byte.png" class="article-image">
 6. Save the file (Ctrl+S) and close HxD. 
 7. Launch Epic Mickey in Dolphin. You should now be starting from the opposite end of Thru the Mirror. Proceed to Mean Street, then enter the Ventureland projector to continue playing the game.
