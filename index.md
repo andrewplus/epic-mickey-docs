@@ -5,6 +5,7 @@ This project aims to provide a collection of research and guides on the inner wo
 ## Guides
 * [Modifying Game Files](./modifying-game-files)
 * [Loading Levels](./levels)
+* [OsTown Softlock Save Fix](./ostown-softlock-save-fix)
 * For guides on opening specific filetypes, consult pages in the Files section.
 
 ## Files
