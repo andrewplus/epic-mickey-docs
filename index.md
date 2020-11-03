@@ -24,6 +24,9 @@ This project aims to provide a collection of research and guides on the inner wo
 * Found Scrapped Content
 * Mickey Arcade Documentation
 
+# Archives
+* [Save File Info (from Jeff Massung)](./archive/save-info-jeff-massung.md)
+
 ## Tools
 * [Epic Mickey Config Editor](./tools/cmdline)
 * [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
