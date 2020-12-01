@@ -49,7 +49,7 @@ table *:not(pre) {
   padding: 5px 10px;
 }
 
-@media (min-width: 660px) {
+@media (max-width: 660px) {
   .home-grid {
     display: block;
   }
