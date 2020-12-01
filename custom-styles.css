@@ -39,3 +39,12 @@ table *:not(pre) {
   min-width: 100%;
   table-layout: fixed;
 }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.home-grid > div {
+  padding: 5px 10px;
+}
