@@ -20,4 +20,4 @@ For this, you will need a [HxD](https://mh-nexus.de/en/hxd/) (recommended) or an
 __NOTE:__ Do not enter the OsTown projector again, as this will put you right back to where you started.
 
 ### Wii players
-This section is coming soon. If you are desperate to have your save fixed, [make a request on the Epic Mickey Wiki Discord server](https://discord.epicmickey.wiki) and I'll see what I can do.
+Consult the [save files page](./save-files) for information on editing Wii saves, then follow the steps in the *Dolphin players* section above. This either requires a softmodded Wii or Dolphin with an Epic Mickey rom. If you would prefer not to install homebrew on your Wii, leave a message in the [Discord server](https://discord.epicmickey.wiki) and someone will help you.
