@@ -6,7 +6,7 @@ Save files are binary files used to store progress in Epic Mickey. Before making
 ### Dolphin
 Open Dolphin, right-click Epic Mickey in your game list, and click *Open Wii Save Folder*.
 ### Wii
-Save files can be copied from a Wii to an SD card [using the built-in save manager](https://en-americas-support.nintendo.com/app/answers/detail/a_id/2720/~/how-to-copy-save-data-to-an-sd-card), but they will be encrypted .bin files. These can be decrypted using Dolphin with an Epic Mickey rom or with [FE100](https://wiibrew.org/wiki/FE100). With a softmodded Wii, save files can be easily extracted and re-inserted using [SaveGame Manager GX instead](https://wiibrew.org/wiki/SaveGame_Manager_GX).
+Save files can be copied from a Wii to an SD card [using the built-in save manager](https://en-americas-support.nintendo.com/app/answers/detail/a_id/2720/~/how-to-copy-save-data-to-an-sd-card), but they will be encrypted .bin files. These can be decrypted using Dolphin with an Epic Mickey rom or with [FE100](https://wiibrew.org/wiki/FE100). With a softmodded Wii, save files can be easily extracted and re-inserted using [SaveGame Manager GX](https://wiibrew.org/wiki/SaveGame_Manager_GX).
 
 ## Save chunks
 This section will be expanded as more information becomes known.
