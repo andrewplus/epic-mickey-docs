@@ -30,3 +30,4 @@ This project aims to provide a collection of research and guides on the inner wo
 ## Tools
 * [Epic Mickey Config Editor](./tools/cmdline)
 * [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
+* [Save Global Editor](./tools/global-editor)
