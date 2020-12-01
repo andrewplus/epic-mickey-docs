@@ -48,3 +48,13 @@ table *:not(pre) {
 .home-grid > div {
   padding: 5px 10px;
 }
+
+@media (min-width: 660px) {
+  .home-grid {
+    display: block;
+  }
+
+  .home-grid > div {
+    padding: 0;
+  }
+}
