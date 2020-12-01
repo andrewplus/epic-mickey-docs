@@ -14,7 +14,7 @@ This project aims to provide a collection of research and guides on the inner wo
 * [Audio Files](./audio-files)
 * [Cutscene Files](./cutscene-files)
 * [Lua Files](./lua-files)
-* Unreadable File Formats
+* [Save Files](./save-files)
 * [Levels](./levels)
 
 ## Documentation/Research
