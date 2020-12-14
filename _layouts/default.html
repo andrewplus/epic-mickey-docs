@@ -47,6 +47,10 @@
       </footer>
     </div>
 
+    <div id="lightbox">
+      <img src="">
+    </div>
+
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,11 +63,17 @@
     {% endif %}
     <script>
       var images = document.querySelectorAll(".article-image");
+      var lightbox = document.getElementById("lightbox");
+      var lightboxImage = document.querySelector("#lightbox img");
       images.forEach(function (el) {
-        el.style.cursor = "pointer";
         return el.addEventListener("click", function (event) {
-          window.open(el.src);
+          lightboxImage.src = el.src;
+          lightbox.classList.add("visible");
         });
+      });
+
+      lightbox.addEventListener("click", function (event) {
+        lightbox.classList.remove("visible");
       });
     </script>
   </body>
