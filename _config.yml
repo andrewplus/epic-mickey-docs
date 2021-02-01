@@ -3,3 +3,4 @@ title: Epic Mickey Docs
 description: A collection of research and guides for navigating and modifying the files of Epic Mickey.
 plugins:
   - jekyll-sitemap
+  - jekyll-last-modified-at
