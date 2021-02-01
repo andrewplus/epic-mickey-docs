@@ -4,20 +4,16 @@ There is an exploit for speedrunning that skips the Shadow Blot fight and the Ba
 
 Though most speedrunners know to avoid OsTown after executing the Shadow Blot skip, unsuspecting players occasionally encounter this bug by accident and ruin their save files. This page provides a guide for recovering broken save files by changing the projector screen direction to send Mickey back to Mean Street.
 
-## Procedure
-
-### Dolphin players
-For this, you will need a [HxD](https://mh-nexus.de/en/hxd/) (recommended) or another hex editor.
+## Guide for Dolphin players
+For this, you will need the [Global Editor](tools/global-editor) program. This has not been tested on all regional versions. Always back up your saves before modifying them.
 
 1. Right click Epic Mickey in the Dolphin game list and click __Open Wii Save Folder__.
-2. Open the appropriate .dat file with HxD. If you are unsure of which to open, consult the image below.<img src="/site-images/save-legend.png" class="article-image">
-3. In HxD, click __Search__ and select __Go to...__.<img src="/site-images/goto.png" class="article-image">
-4. Type "__35D__" in the text field and leave all the other settings as their defaults. Click __OK__.
-5. Your text cursor should now be at index 0x35D. Type "00" to replace the "01" (no need to backspace anything).<img src="/site-images/edited-byte.png" class="article-image">
-6. Save the file (Ctrl+S) and close HxD. 
-7. Launch Epic Mickey in Dolphin. You should now be starting from the opposite end of Thru the Mirror. Proceed to Mean Street, then enter the Ventureland projector to continue playing the game.
+2. In the Global Editor, click __File__, __Open...__, then navigate to the Wii save folder from step 1. Open the appropriate .dat file for your save slot. If you are unsure of which to open, consult the image below.<img src="/site-images/save-legend.png" class="article-image">
+3. Click the __2dDirection__ item at the top of the Globals list and type 00 in the __New value__ field.
+4. Save the change (Ctrl+S) and close the Global Editor.
+5. Launch Epic Mickey in Dolphin. Upon loading your file, you should now be starting from the opposite end of Thru the Mirror. Proceed to Mean Street, then enter the Ventureland projector to proceed through the game.
 
 __NOTE:__ Do not enter the OsTown projector again, as this will put you right back to where you started.
 
-### Wii players
-Consult the [save files page](./save-files) for information on editing Wii saves, then follow the steps in the *Dolphin players* section above. This either requires a softmodded Wii or Dolphin with an Epic Mickey rom. If you would prefer not to install homebrew on your Wii, leave a message in the [Discord server](https://discord.epicmickey.wiki) and someone will help you.
+## Note for Wii players
+Consult the [save files page](./save-files) for information on editing Wii saves, then follow steps 2-4 in the *Guide for Dolphin players* section above. This process is more advanced and either requires a softmodded Wii or Dolphin with an Epic Mickey rom. If you're stuck would prefer not to install homebrew on your Wii, leave a message in the [Discord server](https://discord.epicmickey.wiki) and someone will help you send your save file and have it patched.
