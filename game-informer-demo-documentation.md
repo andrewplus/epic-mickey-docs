@@ -404,5 +404,5 @@ Coming soon.
 
 # Additional links
 
-* Lua file documentation (page coming soon)
+* [Lua file documentation](/lua-files)
 * *[Oswaldiscool/Findings Sandbox](https://epicmickey.wiki/User:Oswaldiscool/Findings_Sandbox)* on [Epic Mickey Wiki](https://epicmickey.wiki)
