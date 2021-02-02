@@ -86,3 +86,30 @@ table *:not(pre) {
     padding: 0;
   }
 }
+
+/* Dark mode */
+body.dark #main_content_wrap {
+  background-color: #151515;
+  color: #cecece;
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
+  color: #ffffff;
+}
+
+body.dark #footer_wrap {
+  background-color: #080808;
+}
+
+body.dark pre {
+  background-color: #2b2b2b;
+}
+
+body.dark code {
+  background-color: #353535;
+}
+
+body.dark pre, body.dark code {
+  color: white;
+  border-radius: 0px;
+}

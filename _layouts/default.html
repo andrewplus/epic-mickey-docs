@@ -62,6 +62,7 @@
       </script>
     {% endif %}
     <script>
+      // lightbox
       var images = document.querySelectorAll(".article-image");
       var lightbox = document.getElementById("lightbox");
       var lightboxImage = document.querySelector("#lightbox img");
@@ -75,6 +76,11 @@
       lightbox.addEventListener("click", function (event) {
         lightbox.classList.remove("visible");
       });
+
+      // dark mode
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add("dark");
+      }
     </script>
   </body>
 </html>
