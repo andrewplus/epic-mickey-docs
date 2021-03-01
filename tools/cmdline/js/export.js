@@ -1,7 +1,7 @@
 let savePath = "";
 if (PLATFORM === "desktop") {
     if (localStorage.getItem("savePath") === null) {
-        savePath = "%UserProfile%\\Documents\\cmdline.txt"
+        savePath = "C:\\"
     } else {
         savePath = localStorage.getItem("savePath");
     }
