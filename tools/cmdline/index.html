@@ -21,7 +21,10 @@
         window.onerror = function() { // surpress IE popup errors in desktop
             return true;
         };
-        if (typeof NL_OS === 'undefined') {
+        function getQueryStringValue(key) {  
+            return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
+        }
+        if (getQueryStringValue("platform") !== 'win') {
             var PLATFORM = "web";
         } else {
             var PLATFORM = "desktop";
