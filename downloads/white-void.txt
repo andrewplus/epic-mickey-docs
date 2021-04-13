@@ -1,2 +1,2 @@
-; cmdline.txt
+; Copy the line below to the end of your cmdline.txt file:
 -Set RenderBackgroundColorR=225.0 -Set RenderBackgroundColorG=225.0 -Set RenderBackgroundColorB=225.0
