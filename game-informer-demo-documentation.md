@@ -16,13 +16,22 @@ Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
 * After leaving the level, *Levels/Demo_GV_Start.level* is loaded.
 
 ## Characters
+*Demo portraits obtained through GI Demo leftovers in the Wii U version of Epic Mickey 2.*
 
+* Mickey
 * Gremlin Gus
+
+![gus_headshot](https://user-images.githubusercontent.com/83473579/143671517-48632279-4415-475a-a501-d870c0ce2feb.png)
 * Gremlin Jamface (green)
   * Most of the code refers to him as Gremlin Ted.
   * Would have fixed the mechanical arm if returned his wrench.
+
+![green_headshot](https://user-images.githubusercontent.com/83473579/143671578-85c0ae80-acc8-458b-9de1-945f2d5befaf.png)
 * Gremlin Barry (blue)
   * Most of the code refers to him as Gremlin Ghengis.
+
+![blue_headshot](https://user-images.githubusercontent.com/83473579/143671594-7b9444aa-9962-418b-9b8c-1f5799b12a4e.png)
+
 
 ## Dialog boxes/UI text
 
