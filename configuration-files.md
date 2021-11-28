@@ -3,7 +3,7 @@
 Configuration files are text files that contain easily editable settings for the game. They can be found in Epic Mickey's root directory. Since they're not found inside pak files, they're easy to modify and reinsert into the game.
 
 ## Config file hierarchy
-Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigFiles.ini -> default in-game values`
+Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigFiles.ini -> ConfigOverride.ini -> default in-game values (MickeyF213923.213924.rel -> boot.dol)`
 
 Config.ini is an older version of ConfigFiles.ini that doesn't make any changes to the game. It's unknown where cmdOptions.txt and LaunchOptions.txt fit into this.
 
@@ -20,11 +20,14 @@ Three other versions of this file exist as well: '''cmdline_consumer.txt''', '''
 ### ConfigFiles.ini
 ConfigFiles.ini is the main config file. It is similar to cmdline.txt but is much more expansive and contains more than just launch options. This file is confirmed to have an effect on the game, but not all values are guaranteed to cause visible differences. Because of the size of the file, not all values have been tested individually. The default file can be viewed [here](https://pastebin.com/2Nmz8mwV).
 
+### ConfigOverride.ini
+Though this config doesn't exist in the files, it is called by the game at boot. As the name suggests, it overrides ConfigFiles.ini. If created in the same directory as ConfigFiles.ini, it will take precedence over any values that both files contain. 
+
 ### Config.ini
 Appears to be an older version of ConfigFiles.ini. Though modifying it makes no changes to the actual game, it is an interesting remnant of the game's earlier phases and contains references to old enemy types and unused features. It's possible that it could contain some values that aren't in ConfigFiles.ini that the launcher may still accept.
 
 ### cmdOptions.txt
-Only contains one setting. Seems to use the same syntax as cmdline.txt. Unknown where this fits into the hierarchy.
+Only contains one setting. Seems to use the same syntax as cmdline.txt. This file is not read by the game, so changing or removing it does nothing. Unknown where this fits into the hierarchy.
 
 ```
 -wiiprofilermem 0
