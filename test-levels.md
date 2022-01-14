@@ -125,7 +125,7 @@ Certain unused test levels remain in the files of Epic Mickey. For help with loa
                     Levels/BuildingStandards.level
                 </td>
                 <td>
-                    No lighting, mostly black. <a href="./downloads/white-void.txt" target="_blank">Changing the void color to white</a> makes it a bit more navigable.
+                    No lighting, mostly black. <a href="./downloads/white-void.txt" target="_blank">Changing the void color to white</a> makes it a bit more navigable. <br>Author: Jeff Massung
                 </td>
             </tr>
             <tr>
