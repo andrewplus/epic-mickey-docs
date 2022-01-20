@@ -17,3 +17,15 @@ pause
 ```
 6. Run loop.bat. Once it is finished, close the console window.
 7. The decompiled lua files can now be found in the output folder.
+
+## Editing
+Please note that this will only work with the first Epic Mickey game.
+
+You cannot currently recompile decompiled Lua files and have them work in game, so you must edit the compiled code with the Lua VM Instructions language.
+Editing compiled Lua files is no simple task.
+
+If you just want to edit some values to true or false, here is a chart that you can use on a compiled lua file with a hex editor:
+![image](https://user-images.githubusercontent.com/83473579/143671322-2b82000d-4197-4fd0-8a1f-3941120b0512.png)
+*Opcode is the hex value of the operator*
+
+[Here](http://underpop.free.fr/l/lua/docs/a-no-frills-introduction-to-lua-5.1-vm-instructions.pdf) is very complex documentation on the subject. 
