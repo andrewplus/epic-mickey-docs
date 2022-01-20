@@ -24,7 +24,9 @@ Please note that this will only work with the first Epic Mickey game.
 There is currently no known way to recompile decompiled Lua files and have them work in game, so you must edit the compiled code with the Lua VM Instructions language. Keep in mind that editing compiled Lua files is no simple task.
 
 If you just want to edit some values to true or false, here is a chart that you can use on a compiled lua file with a hex editor:
+
 <img src="//user-images.githubusercontent.com/83473579/143671322-2b82000d-4197-4fd0-8a1f-3941120b0512.png" class="article-image">
+
 *Opcode is the hex value of the operator*
 
 Deeper documentation on the subject can be found [here](http://underpop.free.fr/l/lua/docs/a-no-frills-introduction-to-lua-5.1-vm-instructions.pdf). 
