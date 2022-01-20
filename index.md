@@ -19,7 +19,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Guides
-* [Modifying Game Files](./modifying-game-files)
+* [Patching Game Files](./patching-game-files)
 * [Loading Levels](./levels)
 * [OsTown Softlock Save Fix](./ostown-softlock-save-fix)
 
