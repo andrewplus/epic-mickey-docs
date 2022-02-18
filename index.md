@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Home Page
-
 This project aims to provide a collection of research and guides on the inner workings of Epic Mickey. Though most of the content on this site currently focuses on the first game, many of it will apply to the sequel as well.
 
 ## Contributors
