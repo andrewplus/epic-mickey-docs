@@ -71,10 +71,7 @@ table *:not(pre) {
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.home-grid > div {
-  padding: 5px 10px;
+  gap: 10px;
 }
 
 @media (max-width: 660px) {
