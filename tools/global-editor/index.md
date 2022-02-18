@@ -1,3 +1,8 @@
+---
+layout: default
+title: Global Editor
+---
+
 # Global Editor
 
 This program provides a GUI for editing global values of a (.dat) save file. This tool has only been tested with the North American version of the game. Compatibility with other versions cannot be guaranteed. 

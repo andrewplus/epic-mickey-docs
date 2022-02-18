@@ -1,3 +1,8 @@
+---
+layout: default
+title: Audio Files
+---
+
 # Audio Files
 
 Epic Mickey contains many audio files of varying filetypes, located in the Audio folder. If you don't yet have access to the game's filesystem, consult the [Modifying Game Files](./modifying-game-files) page.

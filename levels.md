@@ -1,3 +1,8 @@
+---
+layout: default
+title: Levels
+---
+
 # Levels
 
 Levels are the separate areas that the Mickey launcher can load.

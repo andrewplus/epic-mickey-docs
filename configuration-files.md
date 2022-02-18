@@ -1,3 +1,8 @@
+---
+layout: default
+title: Configuration Files
+---
+
 # Configuration Files
 
 Configuration files are text files that contain easily editable settings for the game. They can be found in Epic Mickey's root directory. Since they're not found inside pak files, they're easy to modify and reinsert into the game.

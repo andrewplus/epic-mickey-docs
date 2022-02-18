@@ -1,3 +1,8 @@
+---
+layout: default
+title: Patching Game Files
+---
+
 # Patching Game Files
 
 The files of Epic Mickey can be modified and played in Dolphin or on a modded Wii console. Below are some guides on manipulating the files. There are other ways to go about this, but these are the suggested methods. The following instructions only apply to Windows users.

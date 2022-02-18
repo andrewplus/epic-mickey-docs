@@ -1,3 +1,8 @@
+---
+layout: default
+title: Lua Files
+---
+
 # Lua Files
 
 Lua files containing level scripting for Epic Mickey can be found in the [pak files](./pak-files). To access them, extract all the pak files and navigate to Environments/_Shared/Scripts/. They need to be decompiled to be made readable.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cutscene Files
+---
+
 # Cutscene Files
 
 Cutscenes in Epic Mickey are stored in the BIK file format. They can be found in the Movies directory of the game and can be easily opened, viewed, and converted using [VLC Media Player](https://www.videolan.org/vlc/index.html). All cutscenes lack subtitles and some are missing certain music and/or sounds that are present in the game.

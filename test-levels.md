@@ -1,3 +1,8 @@
+---
+layout: default
+title: Test Levels
+---
+
 # Test Levels
 
 Certain unused test levels remain in the files of Epic Mickey. For help with loading them, consult the [levels page](./levels).

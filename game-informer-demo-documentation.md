@@ -1,3 +1,8 @@
+---
+layout: default
+title: Game Informer Demo Documentation
+---
+
 # Game Informer Demo Documentation
 
 Below is documentation about the leftover Lua files from the demo presented to Game Informer for the November 2009 issue. Paraphrased excerpts of code are provided to provide additional context.

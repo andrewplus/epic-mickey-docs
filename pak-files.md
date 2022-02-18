@@ -1,3 +1,8 @@
+---
+layout: default
+title: PAK Files
+---
+
 # PAK Files
 
 PAK Files (or packfiles, pack files) are package files that contain most of Epic Mickey's game assets, such as level data, scripts, and graphics. All of Epic Mickey's PAK files are located within the packfiles folder of the game's root.

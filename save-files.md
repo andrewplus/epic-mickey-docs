@@ -1,3 +1,8 @@
+---
+layout: default
+title: Save Files
+---
+
 # Save Files
 
 Save files are binary files used to store progress in Epic Mickey. Before making any edits, you should create backups to avoid losing data. This article uses research of the North American release; others may vary. 

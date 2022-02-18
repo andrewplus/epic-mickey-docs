@@ -1,3 +1,8 @@
+---
+layout: default
+title: OsTown Softlock Save Fix
+---
+
 # OsTown Softlock Save Fix
 
 <div markdown="1" style="background-color: #fbfb90e0; border: 1px solid #9d8524; padding: 15px;color:black">
