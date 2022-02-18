@@ -41,7 +41,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Archives
-* [Save File Info (from Jeff Massung)](./archive/save-info-jeff-massung.md)
+* [Save File Info (from Jeff Massung)](./archive/save-info-jeff-massung)
 
 </div>
 
