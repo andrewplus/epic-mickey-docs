@@ -3,7 +3,7 @@
 Configuration files are text files that contain easily editable settings for the game. They can be found in Epic Mickey's root directory. Since they're not found inside pak files, they're easy to modify and reinsert into the game.
 
 ## Config file hierarchy
-Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigFiles.ini -> ConfigOverride.ini -> default in-game values (MickeyF213923.213924.rel -> boot.dol)`
+Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigOverride.ini -> ConfigFiles.ini -> default in-game values (MickeyF213923.213924.rel -> boot.dol)`
 
 Config.ini is an older version of ConfigFiles.ini that doesn't make any changes to the game. It's unknown where cmdOptions.txt and LaunchOptions.txt fit into this.
 
