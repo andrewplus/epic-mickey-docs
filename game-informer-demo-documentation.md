@@ -410,4 +410,4 @@ Coming soon.
 # Additional links
 
 * [Lua file documentation](/lua-files)
-* *[Oswaldiscool/Findings Sandbox](https://epicmickey.wiki/User:Oswaldiscool/Findings_Sandbox)* on [Epic Mickey Wiki](https://epicmickey.wiki)
+* *[Oswaldiscool/Findings Sandbox](https://epicmickey.fandom.com/wiki/User:Oswaldiscool/Findings_Sandbox)* on [Epic Mickey Wiki](https://epicmickey.wiki)

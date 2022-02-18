@@ -5,7 +5,7 @@ title: Save File Information from Jeff Massung
 
 # Save File Information from Jeff Massung
 
-On 07/04/2019, Nukatha#2306 from the [Epic Mickey Wiki Discord](https://discord.epicmickey.wiki) posted the following email response from Jeff Massung, one of the senior programmers of Epic Mickey. It is a reply to a question regarding recoving a [softlocked OsTown save file](./ostown-softlock-save-fix).
+On 07/04/2019, Nukatha#2306 from the [Epic Mickey Wiki Discord](https://discord.epicmickey.wiki) posted the following email response from Jeff Massung, one of the senior programmers of Epic Mickey. It is a reply to a question regarding recoving a [softlocked OsTown save file](/ostown-softlock-save-fix).
 
 ## Email body
 
