@@ -66,7 +66,7 @@ Contributions are welcome via [GitHub pull request](https://github.com/andrewplu
 <div markdown="1">
 
 ## Tools
-* [Epic Mickey Config Editor](./tools/cmdline)
+* [Epic Mickey Config Editor](./tools/cmdline/)
 * [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
 * [Save Global Editor](./tools/global-editor)
 
