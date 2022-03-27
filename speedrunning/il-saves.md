@@ -21,49 +21,44 @@ _Coming soon..._
         </thead>
         <tbody>
             <tr>
-                <td>Dark Beauty Castle I</td>
-                <td>Just delete your old save slots</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>Gremlin Village</td>
                 <td></td>
-                <td>[Download](saves/gv.zip)</td>
+                <td><a href="saves/gv.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Mickeyjunk Mountain</td>
                 <td></td>
-                <td>[Download](saves/mjm.zip)</td>
+                <td><a href="saves/mjm.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Tomorrow City</td>
                 <td>3 turps for Slobber</td>
-                <td>[Download](saves/tc.zip)</td>
+                <td><a href="saves/tc.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Pirates of the Wasteland</td>
                 <td></td>
-                <td>[Download](saves/potw.zip)</td>
+                <td><a href="saves/potw.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Lonesome Manor</td>
                 <td>5 TV sketches</td>
-                <td>[Download](saves/lm.zip)</td>
+                <td><a href="saves/lm.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Bloticles</td>
                 <td>Starts in Battle of Mean Street. 6 max health. 3 TV sketches.</td>
-                <td>[Download](saves/bloticles.zip)</td>
+                <td><a href="saves/bloticles.zip" download>Download</a></td>
             </tr>
             <tr>
-                <td>Dark Beauty Castle II</td>
+                <td>DBC II</td>
                 <td>Loads of each sketch. 7 max health.</td>
-                <td>[Download](saves/dbc2.zip)</td>
+                <td><a href="saves/dbc2.zip" download>Download</a></td>
             </tr>
             <tr>
                 <td>Inside the Blot</td>
                 <td>Loads of each sketch. 7 max health.</td>
-                <td>[Download](saves/insideblot.zip)</td>
+                <td><a href="saves/insideblot.zip" download>Download</a></td>
             </tr>
         </tbody>
     </table>
