@@ -10,19 +10,13 @@ Using an SD card, the following saves can be loaded onto a Wii console and used 
 _Coming soon..._
 
 ## Downloads
-<div class="article-table">
+<div class="article-table" markdown="1">
     <table>
         <thead>
             <tr>
-                <th>
-                    IL
-                </th>
-                <th>
-                    Notes
-                </th>
-                <th>
-                    Link
-                </th>
+                <th>IL</th>
+                <th>Notes</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody>
