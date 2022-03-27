@@ -14,7 +14,7 @@ _Coming soon..._
     <table>
         <thead>
             <tr>
-                <th>IL</th>
+                <th>Level</th>
                 <th>Notes</th>
                 <th>Link</th>
             </tr>
