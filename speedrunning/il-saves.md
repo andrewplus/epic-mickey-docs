@@ -9,7 +9,7 @@ Using an SD card, the following saves can be loaded onto a Wii console and used 
 ## Tutorial
 _Coming soon..._
 
-## Downloads
+## Download
 <div class="article-table">
     <table>
         <thead>
