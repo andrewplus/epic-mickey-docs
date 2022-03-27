@@ -110,3 +110,13 @@ body.dark pre, body.dark code {
   color: white;
   border-radius: 0px;
 }
+
+#downloads {
+  position: initial;
+  width: initial;
+  z-index: initial;
+  bottom: initial;
+  right: initial;
+  height: initial;
+  background: none;
+}
