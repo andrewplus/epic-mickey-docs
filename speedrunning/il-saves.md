@@ -7,7 +7,7 @@ title: IL Saves
 Using an SD card, the following saves can be loaded onto a Wii console and used for IL runs.
 
 ## Tutorial
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yfOyIR_o0Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yfOyIR_o0Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width: 100%; max-width: 560px;" allowfullscreen></iframe>
 
 ## Download
 <div class="article-table">
