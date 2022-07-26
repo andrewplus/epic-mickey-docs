@@ -10,10 +10,9 @@ Using an SD card, the following saves can be loaded onto a Wii console and used 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yfOyIR_o0Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width: 100%; max-width: 560px;" allowfullscreen></iframe>
 
 ## Which Save Version Should I Download?
-<img src="/site-images/gsa-file.png" class="article-image">
-<img src="/site-images/disc-back.jpg" class="article-image">
+<img src="/site-images/game-id.png" class="article-image">
 
-There are a few ways to identify which regional version of the game you own. On the bottom right corner of the back of the case, look for the game ID (it may look a bit different from the picture above). If it says **RVL P SEME**, download the US version. If it says **RVL P SEMP**, download the UK version. Alternatively, you can look for the small text printed on the bottom of the game disc, near the hole. If your copy is neither *SEME* or *SEMP*, it is not compatible with these saves. Please contact RampantLeaf on the Speedrunning Discord server to request save files for your region. 
+There are a few ways to identify which regional version of the game you own. On the bottom right corner of the back of the case, look for the game ID (it may look a bit different from the picture above). If it says **RVL P SEME**, download the US version. If it says **RVL P SEMP**, download the UK version. Alternatively, you can look for the small [text printed on the bottom of the game disc](/site-images/disc-back.jpg), near the hole. If your copy is neither *SEME* or *SEMP*, it is not compatible with these saves. Please contact RampantLeaf on the Speedrunning Discord server to request save files for your region. 
 
 ## Download
 <div class="article-table">
