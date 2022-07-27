@@ -1,29 +1,10 @@
 ---
 layout: default
 title: Home
+body: home
 ---
 
-This project aims to provide a collection of research and guides on the inner workings of Epic Mickey. Though most of the content on this site currently focuses on the first game, many of it will apply to the sequel as well.
-
-## Contributors
-
-Contributions are welcome via [GitHub pull request](https://github.com/andrewplus/epic-mickey-docs/pulls) as long as they're accurate and don't promote piracy.
-
-<!-- Contributors list (fetched asynchronously from the GitHub api) -->
-<ul markdown="1" id="contributor-list"></ul>
-<script async>
-    fetch("https://api.github.com/repos/andrewplus/epic-mickey-docs/contributors")
-        .then(response => response.json())
-        .then(data => show_contributors(data));
-    
-    function show_contributors(contributors) {
-        contributors.forEach(function(contributor) {
-            var li = document.createElement("li");
-            li.innerHTML = `<a href="${contributor.html_url}">${contributor.login}</a> (${contributor.contributions} commits)`;
-            document.getElementById("contributor-list").appendChild(li);
-        });
-    }
-</script>
+This project aims to provide a collection of research and guides on the inner workings of Epic Mickey. Though most of the content on this site currently focuses on the first game, some of it will apply to the sequel as well.
 
 <div class="home-grid">
 <div markdown="1">
@@ -79,3 +60,23 @@ Contributions are welcome via [GitHub pull request](https://github.com/andrewplu
 
 </div>
 </div>
+
+## Contributors
+
+Suggestions and contributions are welcome via [GitHub pull request](https://github.com/andrewplus/epic-mickey-docs/pulls).
+
+<!-- Contributors list (fetched asynchronously from the GitHub api) -->
+<ul markdown="1" id="contributor-list"></ul>
+<script async>
+    fetch("https://api.github.com/repos/andrewplus/epic-mickey-docs/contributors")
+        .then(response => response.json())
+        .then(data => show_contributors(data));
+    
+    function show_contributors(contributors) {
+        contributors.forEach(function(contributor) {
+            var li = document.createElement("li");
+            li.innerHTML = `<a href="${contributor.html_url}">${contributor.login}</a> (${contributor.contributions} commits)`;
+            document.getElementById("contributor-list").appendChild(li);
+        });
+    }
+</script>
