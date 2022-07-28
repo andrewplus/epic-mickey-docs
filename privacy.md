@@ -17,4 +17,12 @@ Epic Mickey Docs (this website) does not use any analytics or tracking software 
 Under its previous ownership, epicmickey.net used Google Analytics and may have used other tracking software. It is possible that this could have been used to personally identify users. Since being acquired by RampantLeaf on July 28, 2022, all tracking features have been removed. Epicmickey.net does not use any analytics or tracking software and no visitor information is recorded or sent to administrators.
 
 ## Gremlin Gus Discord Bot
-The Gremlin Gus bot reads all Discord messages sent in channels that it has access to for the purpose of looking for valid commands, but no messages except for bot commands are logged. When a command is triggered, the following information may be logged for debugging purposes: the contents of the message that triggered the command, the ID of the server the command was triggered in, the date that the command was sent, and the bot's response to the command. None of this information is used to personally identify users. The source code of the bot can be accessed [here](https://github.com/andrewplus/gusbot).
+The Gremlin Gus bot reads all Discord messages sent in channels that it has access to for the purpose of looking for valid commands, but no messages except for bot commands are logged. 
+
+When a command is triggered, the following information may be logged for debugging purposes: 
+* The contents of the message that triggered the command
+* The ID of the server the command was triggered in
+* The date that the command was sent
+* The bot's response to the command. 
+
+None of this information is used to personally identify users. The source code of the bot can be accessed [here](https://github.com/andrewplus/gusbot).
