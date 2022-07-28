@@ -14,7 +14,9 @@ The main wiki and the fanon wiki are subject to [Fandom's privacy policy](https:
 Epic Mickey Docs (this website) does not use any analytics or tracking software and no visitor information is recorded or sent to administrators. The source code can be accessed [here](https://github.com/andrewplus/epic-mickey-docs).
 
 ## [epicmickey.net](https://epicmickey.net)
-Under its previous ownership, epicmickey.net used Google Analytics and may have used other tracking software. It is possible that this could have been used to personally identify users. Since being acquired by RampantLeaf on July 28, 2022, all tracking features have been removed. Epicmickey.net does not use any analytics or tracking software and no visitor information is recorded or sent to administrators.
+Under its previous ownership, epicmickey.net used Google Analytics and may have used other tracking software. It is possible that this could have been used to personally identify users.
+
+Since being acquired by RampantLeaf on July 28, 2022, all tracking features have been removed. Epicmickey.net does not use any analytics or tracking software and no visitor information is recorded or sent to administrators.
 
 ## Gremlin Gus Discord Bot
 The Gremlin Gus bot reads all Discord messages sent in channels that it has access to for the purpose of looking for valid commands, but no messages except for bot commands are logged. 
