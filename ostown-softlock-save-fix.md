@@ -7,7 +7,7 @@ title: OsTown Softlock Save Fix
 
 <div markdown="1" style="background-color: #fbfb90e0; border: 1px solid #9d8524; padding: 15px;color:black">
 
-If you are experiencing this or any other softlock in Epic Mickey, but are <strong>not comfortable with fixing the issue yourself or installing homebrew on your Wii</strong>, please join the [Epic Mickey Wiki Discord server](https://discord.epicmickey.wiki) and describe the issue you are facing. Someone will guide you through uploading your save so they can diagnose and repair it for you. Please have a [Wii-compatible SD card](https://www.nintendo.co.uk/Support/Wii/Usage/SD-Cards/Identifying-Compatible-SD-Cards/Identifying-Compatible-SD-Cards-239900.html) and a computer with a card reader handy.
+If you are experiencing this or any other softlock in Epic Mickey, but are <strong>not comfortable with save editing or installing homebrew on your Wii</strong>, please join the [Epic Mickey Wiki Discord server](https://discord.epicmickey.wiki) and describe the issue you are facing. Someone will guide you through uploading your save so they can diagnose and repair it for you. Please have a [Wii-compatible SD card](https://www.nintendo.co.uk/Support/Wii/Usage/SD-Cards/Identifying-Compatible-SD-Cards/Identifying-Compatible-SD-Cards-239900.html) and a computer with a card reader handy.
 
 </div>
 
@@ -27,4 +27,4 @@ For this, you will need the [Global Editor](tools/global-editor) program. This h
 __NOTE:__ Do not enter the OsTown projector again, as this will put you right back to where you started.
 
 ## Note for Wii players
-Consult the [save files page](./save-files) for information on editing Wii saves, then follow steps 2-4 in the *Guide for Dolphin players* section above. This process is more advanced and either requires a softmodded Wii or Dolphin with an Epic Mickey rom. If you're stuck would prefer not to install homebrew on your Wii, leave a message in the [Discord server](https://discord.epicmickey.wiki) and someone will help you send your save file and have it patched.
+Consult the [save files page](./save-files) for information on editing Wii saves, then follow steps 2-4 in the *Guide for Dolphin players* section above. This process is more advanced and either requires a softmodded Wii or Dolphin with an Epic Mickey rom. If you're stuck and would prefer not to install homebrew on your Wii, leave a message in the [Discord server](https://discord.epicmickey.wiki) and someone will help you send your save file and have it patched.
