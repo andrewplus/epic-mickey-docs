@@ -237,3 +237,7 @@ body.dark pre, body.dark code {
   color: white;
   border-radius: 0px;
 }
+
+body.dark a {
+  color: #ff3182;
+}
