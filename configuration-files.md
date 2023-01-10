@@ -10,7 +10,11 @@ Configuration files are text files that contain easily editable settings for the
 ## Config file hierarchy
 Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigOverride.ini -> ConfigFiles.ini -> default in-game values (MickeyF213923.213924.rel -> boot.dol)`
 
-Config.ini is an older version of ConfigFiles.ini that doesn't make any changes to the game. It's unknown where cmdOptions.txt and LaunchOptions.txt fit into this.
+Config.ini is an older version of ConfigFiles.ini that doesn't make any changes to the game.
+
+LaunchOptions.txt is a file used to create new config options before the developers built the game. Since it was read by the compiler and not the game itself, editing the file does not affect anything.
+
+It is unknown where cmdOptions.txt fits into the hierarchy.
 
 ## Main config files
 
@@ -47,7 +51,7 @@ This file allows you to define new command line options for the launcher without
 
 List of pak files that are auto-loaded by the game at startup. Required for the game to boot.
 
-```
+``` ini
 ; always loaded packfiles
 ;
 ; these packfiles are auto-loaded by the game at startup
@@ -73,7 +77,7 @@ pausemenu_quests.pak
 
 An interesting list of bug testers with dates. Uncertain if this was used in the actual game engine or just for developers to reference.
 
-```
+``` php
 //
 // BugWranglers.txt - Scheduling for the bug wranglers
 //
@@ -116,7 +120,7 @@ Gabe Farris, 5-28-2010
 ### CookExclusions.txt
 
 Seems to be a list of strings in file paths to be omitted when "cooking" the game. It was likely used for building the game and it's all commented out, so there's likely not much that can be done with it.
-```
+``` php
 //
 // CookExclusions.txt - Exclude expressions for data cooking
 //
@@ -138,7 +142,7 @@ Seems to be a list of strings in file paths to be omitted when "cooking" the gam
 
 Lists countdown dates for key dates that would have likely been included in the debug text overlay. Gives an interesting look into the game's timeline.
 
-```
+``` php
 //
 // CountDownList.txt - Tells the Mickey launcher the dates to which it should count down
 //
@@ -172,7 +176,7 @@ RTM, 10-8-2010
 
 // TODO: Add more timers here
 ```
- 
+
 ### InputMapping\_Final.xml, InputMapping\_Debug.xml, InputMapping_Script.xml
 
 Controller mapping for the game. Contains controls for PC input devices, likely used for development, and interestingly, Gamecube controls for certain actions. InputMapping_Final.xml is used by the game and can be changed, but remapping debug feature inputs doesn't seem to make them work. Haven't managed to get Gamecube controllers to work either.
@@ -184,7 +188,7 @@ A large list of early level file paths that don't actually exist in the game any
 ### MyMapList.txt
 
 A blank file that "tells the cooker to cook a GSA even if it isn't in MapList.txt or a level file". It's pretty much empty.
-```
+``` php
 //
 // MyMapList.txt - Tells the cooker to cook a GSA even if it isn't in MapList.txt or a level file.
 //
@@ -204,7 +208,7 @@ A blank file that "tells the cooker to cook a GSA even if it isn't in MapList.tx
 ### NDEVSpyDefaults.txt
 Related to the Nintendo Wii devkits. Obviously, this doesn't have any effect on the game.
 
-```
+``` php
 //
 // Default values, since defaults are not used when there are configuration files
 //
@@ -224,7 +228,7 @@ Related to the Nintendo Wii devkits. Obviously, this doesn't have any effect on 
 
 ### Placeholder.txt
 
-Empty file.
+Empty file. Is found in every disc directory, seemingly created by the compiler before the directory is filled with files.
 
 ### PrivateMapList.txt
 

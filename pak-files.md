@@ -8,6 +8,7 @@ title: PAK Files
 PAK Files (or packfiles, pack files) are package files that contain most of Epic Mickey's game assets, such as level data, scripts, and graphics. All of Epic Mickey's PAK files are located within the packfiles folder of the game's root.
 
 ## Extracting PAK files
+
 PAK files can be extracted using a tool called QuickBMS and a script written by xentax.com user [WRS](https://forum.xentax.com/memberlist.php?mode=viewprofile&u=16084&sid=503689d550d00946bccb0b78f084d38c). They can either all be extracted at once (recommended for convenience) or individually. The instructions are as follows:
 
 1. Create a working folder somewhere on your PC. This will be used to contain all the required files.
@@ -51,5 +52,22 @@ QuickBMS can also reimport files into archives. Unfortunately, this means you mu
 
 ## Notes
 
-* Tests have shown that the game can access user-inserted PAK files. When wm_whiteroom.pak, a PAK file only found in the Japanese version of the game, is moved into the packfiles folder of the American release, the wm_whiteroom level contained in the PAK file loads just fine.
-* Any PAK file not in the "packfiles" folder use a different, older format. They cannot currently be opened, but seem to use the same format seen in Quake (2).
+- Tests have shown that the game can access user-inserted PAK files. When wm_whiteroom.pak, a PAK file only found in the Japanese version of the game, is moved into the packfiles folder of the American release, the wm_whiteroom level contained in the PAK file loads just fine.
+- Any PAK file not in the "packfiles" folder use a different, older format. They cannot currently be opened, but seem to use the same format seen in Quake (2).
+- Files inside the PAK files must be ordered a certain way so the game can load the data correctly. The files are ordered in the reverse order that they are referenced, so when an asset attempts to load something, it is actually there. An example of this would be a model's texture being ordered before the model, so when the model requests the texture to load, it is there for it to load.
+- Contrary to popular belief, most files inside PAK files are not actually compressed. The format itself supports compression, but the game requires some file formats to be uncompressed to load them at all. These include...
+  - .nif/.nif_wii
+  - .hkx/.hkx_wii
+  - .hkw/.hkw_wii
+  - .kf/.kf_wii
+  - .kfm/.kfm_wii
+  - .lit_cooked
+  - .gfx
+  - .bsq
+  - .dct
+- Files formats that are actually compressed in the archives include...
+  - .gsa/.bin
+  - .level
+  - .lua
+  - .part
+  - Any other format
