@@ -11,11 +11,11 @@ The files of Epic Mickey can be modified and played in Dolphin or on a modded Wi
 
 ## Ripping the game
 
-If you have a Wii console with Homebrew and a copy of the game, you can extract the game to a hard drive. To learn how to mod your Wii, click [here](http://wii.guide/). If you've already done that and you want to create a backup of your game, click [here](https://wii.guide/usbloadergx) for more info on using USB Loader GX. 
+If you have a Wii console with Homebrew and a copy of the game, you can extract the game to a hard drive. To learn how to mod your Wii, click [here](http://wii.guide/). If you've already done that and you want to create a backup of your game, click [here](https://wii.guide/usbloadergx) for more info on using USB Loader GX.
 
 ## Converting WBFS to ISO
 
-If you backed up your game disc using the above method, you will likely find a WBFS file in the "wbfs" folder on the hard drive that you connected to your Wii console. In some cases, you may prefer to have it in the ISO format. To convert the file, use [WiiBackupManager](http://www.wiibackupmanager.co.uk/downloads.html). 
+If you backed up your game disc using the above method, you will likely find a WBFS file in the "wbfs" folder on the hard drive that you connected to your Wii console. In some cases, you may prefer to have it in the ISO format. To convert the file, use [WiiBackupManager](http://www.wiibackupmanager.co.uk/downloads.html).
 
 ## For Dolphin users
 

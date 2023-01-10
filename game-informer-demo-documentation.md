@@ -12,9 +12,11 @@ Below is documentation about the leftover Lua files from the demo presented to G
 ## Notes
 
 * There are lines of code referring to a library and catchable books. It seems to have links to Lonesome Manor.
-```
+
+``` ini
 Demo_Library = "Environments/HauntedMansion/GSA/HauntedMansion_ZoneE.gsa"
 ```
+
 * Hero points are also referred to as "PaladinPoints" in the code.
 * If Mickey leaves without rescuing the gremlins, he receives 25 scrapper points. Otherwise, he receives 25 hero points.
 * After the level, an FMV cutscene plays named *fmv_outro_laboratory.bik*.

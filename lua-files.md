@@ -8,6 +8,7 @@ title: Lua Files
 Lua files containing level scripting for Epic Mickey can be found in the [pak files](./pak-files). To access them, extract all the pak files and navigate to Environments/_Shared/Scripts/. They need to be decompiled to be made readable.
 
 ## Decompiling
+
 These steps are for Windows. Please note that this will only work with the first Epic Mickey game.
 
 1. Ensure your computer has [Java](https://java.com/en/download/) installed, as it will be needed to run the decompiler.

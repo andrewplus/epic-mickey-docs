@@ -8,6 +8,7 @@ title: Configuration Files
 Configuration files are text files that contain easily editable settings for the game. They can be found in Epic Mickey's root directory. Since they're not found inside pak files, they're easy to modify and reinsert into the game.
 
 ## Config file hierarchy
+
 Thanks to Config.ini's comments and various testing we can get a good idea of the general order of precedence. It appears to be as follows, from highest precedence to lowest: `cmdline.txt -> ConfigOverride.ini -> ConfigFiles.ini -> default in-game values (MickeyF213923.213924.rel -> boot.dol)`
 
 Config.ini is an older version of ConfigFiles.ini that doesn't make any changes to the game.
@@ -21,28 +22,35 @@ It is unknown where cmdOptions.txt fits into the hierarchy.
 ### cmdline.txt
 
 The basic launch settings for Epic Mickey. Uses the same value format ConfigFiles.ini (though they have to be defined with -Set), but unlike it, it defines the first level that the game loads at the beginning of the file. This file is very useful for [loading levels](./levels) at boot. Below is the default cmdline.txt:
-```
+
+``` text
 Levels/Main_Menu.level -csg -binary -Set UseHostComm=false -Set UseHostCommScreenshots=false -Set PlayerDisplayLocation=false -wiiprofilermem 0 -nexusip 0.0.0.0 -Set PauseMenuEnabled=true -Set StartInMainMenu=false -Set WiiWristStrapShow=true -Set DisableAudio=false -Set RenderUseBatching=true -Set DisplayBuildVersionHUD=false -Set DisplayDebugTextHUD=false -Set ColorMipmapLevels=false -Set EnableRenderProfiling=false -Set UseDebugLineBatcher=false -Set DisableIGC=false -Set HUDDisplaySafeFrame=false -Set bShowHUD=true -Set PlayerEnableAllAbilities=false -Set SphericalHarmonicLightingDebug=false -Set WiiRemoteSleepTime=5 -Set DisplayDebugParticleText=false -Set UseSmallerDebugText=false -Set OutOfMemoryBoxOfDoom=false -Set DisplayAIMemoryInfo=false -Set MaximizeJigsawAIMemory=false -Set ApprenticeSkip=false -Set ShowDevLevelLoad=false -Set AudioAllowSpillover=false -Set GodModeOnPlayer=false
 ```
+
 Three other versions of this file exist as well: '''cmdline_consumer.txt''', '''cmdline_finaldebug.txt''', and '''cmdline_localization.txt'''. Their differences from cmdline.txt are minimal and no obvious differences have been observed when switching them out. You can view them all and compare [here](https://tcrf.net/Epic_Mickey/Debug_Leftovers).
 
 ### ConfigFiles.ini
+
 ConfigFiles.ini is the main config file. It is similar to cmdline.txt but is much more expansive and contains more than just launch options. This file is confirmed to have an effect on the game, but not all values are guaranteed to cause visible differences. Because of the size of the file, not all values have been tested individually. The default file can be viewed [here](https://pastebin.com/2Nmz8mwV).
 
 ### ConfigOverride.ini
+
 Though this config doesn't exist in the files, it is called by the game at boot. As the name suggests, it overrides ConfigFiles.ini. If created in the same directory as ConfigFiles.ini, it will take precedence over any values that both files contain. 
 
 ### Config.ini
+
 Appears to be an older version of ConfigFiles.ini. Though modifying it makes no changes to the actual game, it is an interesting remnant of the game's earlier phases and contains references to old enemy types and unused features. It's possible that it could contain some values that aren't in ConfigFiles.ini that the launcher may still accept.
 
 ### cmdOptions.txt
+
 Only contains one setting. Seems to use the same syntax as cmdline.txt. This file is not read by the game, so changing or removing it does nothing. Unknown where this fits into the hierarchy.
 
-```
+``` text
 -wiiprofilermem 0
 ```
- 
+
 ### LaunchOptions.txt
+
 This file allows you to define new command line options for the launcher without editing the launcher code. Not sure how it's used or if it actually changes anything. Full file [here](https://pastebin.com/6HK3ECMr).
 
 ## Other text files
@@ -116,10 +124,11 @@ Raven Stewart, 0-0-0000
 Tony Bratton, 7-27-2010
 Gabe Farris, 5-28-2010
 ```
- 
+
 ### CookExclusions.txt
 
 Seems to be a list of strings in file paths to be omitted when "cooking" the game. It was likely used for building the game and it's all commented out, so there's likely not much that can be done with it.
+
 ``` php
 //
 // CookExclusions.txt - Exclude expressions for data cooking
@@ -188,6 +197,7 @@ A large list of early level file paths that don't actually exist in the game any
 ### MyMapList.txt
 
 A blank file that "tells the cooker to cook a GSA even if it isn't in MapList.txt or a level file". It's pretty much empty.
+
 ``` php
 //
 // MyMapList.txt - Tells the cooker to cook a GSA even if it isn't in MapList.txt or a level file.
@@ -206,6 +216,7 @@ A blank file that "tells the cooker to cook a GSA even if it isn't in MapList.tx
 ```
 
 ### NDEVSpyDefaults.txt
+
 Related to the Nintendo Wii devkits. Obviously, this doesn't have any effect on the game.
 
 ``` php
@@ -242,6 +253,6 @@ A bunch of random words and names. What this is for is anyone's guess. Full file
 
 Version data of the game.
 
-```
+``` text
 213923.213924.213927
 ```

@@ -8,7 +8,9 @@ title: Test Levels
 Certain unused test levels remain in the files of Epic Mickey. For help with loading them, consult the [levels page](./levels).
 
 ## Epic Mickey
+
 ### North America/Europe
+
 <div class="article-table">
     <table>
         <tbody>
@@ -149,7 +151,9 @@ Certain unused test levels remain in the files of Epic Mickey. For help with loa
 </div>
 
 ### Japan
+
 All of the test levels from the North American/European versions exist in the Japanese version, in addition to the following Japan-exclusive level:
+
 <div class="article-table">
     <table>
         <tbody>
@@ -180,4 +184,5 @@ All of the test levels from the North American/European versions exist in the Ja
 </div>
 
 ## Epic Mickey 2: The Power of Two
+
 Section coming soon.

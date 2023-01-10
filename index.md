@@ -10,6 +10,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Files
+
 * [Configuration Files](./configuration-files)
 * [Pak Files](./pak-files)
 * [Audio Files](./audio-files)
@@ -23,6 +24,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Guides
+
 * [Patching Game Files](./patching-game-files)
 * [Loading Levels](./levels)
 * [OsTown Softlock Save Fix](./ostown-softlock-save-fix)
@@ -32,6 +34,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Documentation
+
 * [Test Levels](./test-levels)
 * [Game Informer Demo Documentation](./game-informer-demo-documentation)
 
@@ -40,6 +43,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Archives
+
 * [Save File Info (from Jeff Massung)](./archive/save-info-jeff-massung)
 
 </div>
@@ -47,6 +51,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Tools
+
 * [Epic Mickey Config Editor](./tools/cmdline/)
 * [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
 * [Save Global Editor](./tools/global-editor)
@@ -56,6 +61,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Speedrunning
+
 * [IL Save Files](./speedrunning/il-saves)
 
 </div>
@@ -71,7 +77,7 @@ Suggestions and contributions are welcome via [GitHub pull request](https://gith
     fetch("https://api.github.com/repos/andrewplus/epic-mickey-docs/contributors")
         .then(response => response.json())
         .then(data => show_contributors(data));
-    
+
     function show_contributors(contributors) {
         contributors.forEach(function(contributor) {
             var li = document.createElement("li");
