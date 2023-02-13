@@ -41,6 +41,7 @@ This project aims to provide a collection of research and guides on the inner wo
 
 ## Archives
 * [Save File Info (from Jeff Massung)](./archive/save-info-jeff-massung)
+* [HKX and GSA file information](./archive/hkx-gsa-info)
 
 </div>
 
