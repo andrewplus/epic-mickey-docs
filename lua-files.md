@@ -5,9 +5,19 @@ title: Lua Files
 
 # Lua Files
 
-Lua files containing level scripting for Epic Mickey can be found in the [pak files](./pak-files). To access them, extract all the pak files and navigate to Environments/_Shared/Scripts/. They need to be decompiled to be made readable.
+## In *Epic Mickey*
 
-## Decompiling
+### Overview
+
+Lua files containing level scripting for Epic Mickey can be found in the [pak files](./pak-files). These files must be compiled to be used in the game.
+
+### Editing
+
+#### [BlueThinner Lite](./tools/bluethinner-lite)
+
+Open the packfile the desired script is located in and select the lua file. The script will be displayed in the editor in text format. You can edit the script's contents and save the changes back to the packfile.
+
+### Mass Decompiling
 These steps are for Windows. Please note that this will only work with the first Epic Mickey game.
 1. Ensure your computer has [Java](https://java.com/en/download/) installed, as it will be needed to run the decompiler.
 2. Download [unluac 2015_03_02](https://sourceforge.net/projects/unluac/files/Unstable/unluac_2015_03_02.jar/download). You can also experiment with other versions of unluac for slightly more readable results, but this version appears to produce the most complete output. Move unluac_2015_03_02.jar to a working folder and rename it to "unluac.jar".
@@ -23,15 +33,12 @@ pause
 6. Run loop.bat. Once it is finished, close the console window.
 7. The decompiled lua files can now be found in the output folder.
 
-## Editing
-Please note that this will only work with the first Epic Mickey game.
+## In *Epic Mickey 2: The Power of Two*
 
-There is currently no known way to recompile decompiled Lua files and have them work in game, so you must edit the compiled code with the Lua VM Instructions language. Keep in mind that editing compiled Lua files is no simple task.
+### Overview
 
-If you just want to edit some values to true or false, here is a chart that you can use on a compiled lua file with a hex editor:
+Lua files containing level scripting for Epic Mickey 2 can be found in *.pak files for levels that use them. They use a custom bytecode format, and as such, there is no known way to decompile or edit them.
 
-<img src="//user-images.githubusercontent.com/83473579/143671322-2b82000d-4197-4fd0-8a1f-3941120b0512.png" class="article-image">
+## Functions
 
-*Opcode is the hex value of the operator*
-
-Deeper documentation on the subject can be found [here](http://underpop.free.fr/l/lua/docs/a-no-frills-introduction-to-lua-5.1-vm-instructions.pdf). 
+Coming soon.

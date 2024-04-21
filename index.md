@@ -14,8 +14,13 @@ This project aims to provide a collection of research and guides on the inner wo
 * [Pak Files](./pak-files)
 * [Audio Files](./audio-files)
 * [Cutscene Files](./cutscene-files)
+* [Subtitles](./subtitles)
+* [Sequence Files](./bsq)
+* [Dictionary Files](./dictionary-files)
 * [Lua Files](./lua-files)
 * [Save Files](./save-files)
+* [Part Files](./part-files)
+* [Scene Files](./scenes)
 * [Levels](./levels)
 
 </div>
@@ -48,6 +53,7 @@ This project aims to provide a collection of research and guides on the inner wo
 <div markdown="1">
 
 ## Tools
+* [BlueThinner Lite](./tools/bluethinner-lite)
 * [Epic Mickey Config Editor](./tools/cmdline/)
 * [Audio Renaming and Conversion Tool](./tools/batch-audio-tool)
 * [Save Global Editor](./tools/global-editor)
