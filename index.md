@@ -16,7 +16,7 @@ This project aims to provide a collection of research and guides on the inner wo
 * [Cutscene Files](./cutscene-files)
 * [Subtitles](./subtitles)
 * [Sequence Files](./bsq)
-* [Dictionary Files](./dictionary-files)
+* [Dictionary Files](./dictionary)
 * [Lua Files](./lua-files)
 * [Save Files](./save-files)
 * [Part Files](./part-files)
