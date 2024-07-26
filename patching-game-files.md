@@ -31,7 +31,17 @@ Before using this method, ensure you're using the latest version of Dolphin.
 
 **Note:** When opening the game in Dolphin, make sure you select the extracted copy that you made and not the ISO. The extracted copy should be the one that shows up as 0.00B in size.
 
-### Method 2: WiiScrubber
+### Method 2: Extract all files with WIT
+
+Before using this method, ensure you're using the latest version of Dolphin. This method utilizes the command line. Method 1 is recommended if you aren't sure how to use the command line.
+
+1. [Download Wiimms ISO Tools](https://wit.wiimm.de/download.html).
+2. Run the installer.
+3. Navigate to the location of your ISO/WBFS. In the address bar, type `cmd`. <img src="/site-images/open-cmd.gif" class="article-image">
+4. Type `wit extract {NAME} {DIRECTORY}`, where `{NAME}` is the name of your ISO/WBFS and `{DIRECTORY}` is the directory you want to extract it to.
+5. Make sure Dolphin is set up to search the folder of your extracted directory. To do this, click the Config icon on the top bar, click the Paths tab and click Add. Navigate to the location where you extracted the game and add the sys\\ folder. <img src="/site-images/add-paths.png" class="article-image">
+
+### Method 3: WiiScrubber
 
 This method is cumbersome for editing multiple game files, can ruin your game ISO, and can only be used to edit files, not add new ones. Method 1 is recommended if you can spare the hard drive space. Backing up your ISO file is recommended. 
 
